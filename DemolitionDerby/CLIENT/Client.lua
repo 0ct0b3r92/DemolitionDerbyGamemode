@@ -28,7 +28,7 @@ end)
 -- Events
 RegisterNetEvent('startGame')
 AddEventHandler('startGame', function(newStartTimer)
-    
+    ShowNotification('~r~Demolition Derby\n~w~The game is starting.')
 end)
 	
 RegisterNetEvent('updateStartTimer')
