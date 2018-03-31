@@ -8,5 +8,6 @@ client_script {
 
 server_script {
 	'SERVER/SlotReserving.lua',
+	'SERVER/MapToLUA.lua',
 	'SERVER/Server.lua',
 }
