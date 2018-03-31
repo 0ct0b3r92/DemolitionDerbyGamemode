@@ -21,6 +21,7 @@ AddEventHandler('gameStartTimer', function()
 				startingGame = true
 				TriggerClientEvent('updateStartingGame', -1, startingGame)
 				TriggerClientEvent('startGame', -1)
+				CancelEvent()
 			end
 		end
 	elseif startTimer ~= 0 then
@@ -40,6 +41,7 @@ AddEventHandler('forceStartGame', function()
 				startingGame = true
 				TriggerClientEvent('updateStartingGame', -1, startingGame)
 				TriggerClientEvent('startGame', -1)
+				CancelEvent()
 			end
 		end
 	end
