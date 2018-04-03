@@ -1,39 +1,27 @@
-function TableContains(Table, SearchedFor)
-	for k, v in pairs(Table) do
-		if k == SearchedFor then
-			return true
-		end
-	end
-    return false
-end
-
-function stringsplit(input, seperator)
-    result = {}
-    for match in (input .. seperator):gmatch("(.-)" .. seperator) do
-        table.insert(result, match)
-    end
-    return result
-end
-
-function GetMenyooSub(String)
-	local StringSplitted = stringsplit(String, '\n')
+local function GetMenyooSub(String)
+	local StringSplitted = StringSplit(String, '\n')
 	local NewString = ''
 	for k, Line in ipairs(StringSplitted) do
 		if k >= 19 and k < #StringSplitted then
-			NewString = NewString .. '\n' .. Line
+			NewString = NewString .. Line .. '\n'
 		end
 	end
 	return NewString
 end
 
-function MenyooToLUA(String)
-	local StringSplitted = stringsplit(String, '\n'); ReturnTable = {};
-		  TempTable = {}; PlacementStart = false
+local function MenyooToLUA(String)
+	local StringSplitted = StringSplit(String, '\n')
+	local ReturnTable = {['Props'] = {}, ['Vehicles'] = {}};
+	local TempTable = {}; PlacementStart = false
 	for k, Line in ipairs(StringSplitted) do
 		if Line:find('<Placement>') then
 			PlacementStart = true
 		elseif Line:find('</Placement>') then
-			table.insert(ReturnTable, TempTable)
+			if TempTable.Type == '3' then
+				table.insert(ReturnTable.Props, TempTable)
+			elseif TempTable.Type == '2' then
+				table.insert(ReturnTable.Vehicles, TempTable)
+			end
 			TempTable = {}
 			PlacementStart = false
 		elseif PlacementStart then
@@ -48,8 +36,8 @@ function MenyooToLUA(String)
 	return ReturnTable
 end
 
-function MapEditorToLUA(String)
-	local StringSplitted = stringsplit(String, '\n'); ReturnTable = {};
+local function MapEditorToLUA(String)
+	local StringSplitted = StringSplit(String, '\n'); ReturnTable = {['Props'] = {}, ['Vehicles'] = {}};
 		  TempTable = {}; MapObjectStart = false; Rotation = false; Quaternion = false
 	for k, Line in ipairs(StringSplitted) do
 		if String:find('xml') then
@@ -57,7 +45,11 @@ function MapEditorToLUA(String)
 			if Line:find('<MapObject>') then
 				MapObjectStart = true
 			elseif Line:find('</MapObject>') then
-				table.insert(ReturnTable, TempTable)
+				if TempTable.Type == 'Prop' then
+					table.insert(ReturnTable.Props, TempTable)
+				elseif TempTable.Type == 'Vehicle' then
+					table.insert(ReturnTable.Vehicles, TempTable)
+				end
 				TempTable = {}
 				MapObjectStart = false
 			elseif MapObjectStart then
@@ -75,7 +67,7 @@ function MapEditorToLUA(String)
 					if Rotation then
 						Key = 'r' .. Key
 					end
-					if TableContains(Replace, Key) then
+					if TableContainsKey(Replace, Key) then
 						Key = Replace[Key]
 					end
 					if KeyBegin ~= ValueEnd then
@@ -85,9 +77,9 @@ function MapEditorToLUA(String)
 			end
 		else
 			local Replace = {['Prop name'] = 'HashName', ['hash'] = 'ModelHash', ['x'] = 'X', ['y'] = 'Y', ['z'] = 'Z', ['rotationx'] = 'Pitch', ['rotationy'] = 'Roll', ['rotationz'] = 'Yaw'}
-			local LineSplitted = stringsplit(Line, ', ')
+			local LineSplitted = StringSplit(Line, ', ')
 			for i, Part in ipairs(LineSplitted) do
-				local PartSplitted = stringsplit(Part, ' = ')
+				local PartSplitted = StringSplit(Part, ' = ')
 				if PartSplitted[1] ~= 'Prop name' and PartSplitted[1] ~= 'hash' then
 					PartSplitted[2] = PartSplitted[2]:gsub(',', '.')
 				end
@@ -101,8 +93,10 @@ function MapEditorToLUA(String)
 end
 
 function MapToLUA(String)
-	if String:find('<SpoonerPlacements>') then
-		Table = MenyooToLUA(GetMenyooSub(String))
+	local Table
+	if String:find('SpoonerPlacements') then
+		String = GetMenyooSub(String)
+		Table = MenyooToLUA(String)
 	else
 		Table = MapEditorToLUA(String)
 	end

@@ -7,9 +7,8 @@ AddEventHandler('playerConnecting', function(PlayerName, KickReason, Deferrals)
 
 		local Source = source
 		
+		local Tries = 0
 		Citizen.CreateThread(function()
-			local Tries = 0
-			
 			while Tries < tonumber(GetConvar('QueueMaxTries', 10)) do
 				Tries = Tries + 1
 				if GetNumPlayerIndices() < (MaxSlots - tonumber(GetConvar('ReservedSlots', 0))) then

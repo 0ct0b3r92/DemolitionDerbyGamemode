@@ -15,12 +15,12 @@ Citizen.CreateThread(function()
 	while not startingGame do
 		Citizen.Wait(0)
 		if PlayersNeededToStart(neededToStart) and not startingGame then
-			DrawTxt('Time Until Game Starts: ~r~' .. startTimer .. ' ~w~seconds')
+			Draw('Time Until Game Starts: ~r~' .. startTimer .. ' ~w~seconds')
 			TriggerServerEvent('gameStartTimer')
 			ShowNotification('~r~Demolition Derby\n~w~Sufficient players have joined, starting in 2 minutes.')
 		else
 			local onlinePlayers = GetNumberOfPlayers()
-			DrawTxt('Waiting for ~r~' .. neededToStart - onlinePlayers .. ' ~w~player(s) to join.')
+			Draw('Waiting for ~r~' .. neededToStart - onlinePlayers .. ' ~w~player(s) to join.')
 		end
 	end
 end)	
@@ -51,21 +51,3 @@ function PlayersNeededToStart(amountNeeded)
 	end
 end
 
-function DrawTxt(text)
-    SetTextFont(0)
-    SetTextProportional(1)
-    SetTextScale(0.0, 0.45)
-    SetTextDropshadow(1, 0, 0, 0, 255)
-    SetTextEdge(1, 0, 0, 0, 255)
-    SetTextDropShadow()
-    SetTextOutline()
-    SetTextEntry('STRING')
-    AddTextComponentString(text)
-    DrawText(0.40, 0.035)
-end
-
-function ShowNotification(text)
-	SetNotificationTextEntry("STRING")
-	AddTextComponentString(text)
-	DrawNotification(0, 1)
-end
