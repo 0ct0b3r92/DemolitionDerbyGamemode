@@ -52,7 +52,6 @@ local function GetRandomPed()
 end
 
 function SpawnMe()
-	ReferenceProp = NetworkGetEntityFromNetworkId(SpawnedProps[1])
 	if IsPedInAnyVehicle(PlayerPedId(), false) then
 		SetEntityAsMissionEntity(GetVehiclePedIsIn(PlayerPedId(), false), true, true)
 		DeleteEntity(GetVehiclePedIsIn(PlayerPedId(), false))

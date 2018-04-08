@@ -1,9 +1,9 @@
 local CurrentlySpawnedProps = {}
 
 RegisterServerEvent('DD:Server:Props')
-AddEventHandler('DD:Server:Props', function(SpawnedProps)
+AddEventHandler('DD:Server:Props', function(SpawnedProps, ReferenceZ)
 	CurrentlySpawnedProps = SpawnedProps
-	TriggerClientEvent('DD:Client:Props', -1, CurrentlySpawnedProps)
+	TriggerClientEvent('DD:Client:Props', -1, CurrentlySpawnedProps, ReferenceZ)
 end)
 
 RegisterServerEvent('DD:Server:SyncTimeAndWeather')

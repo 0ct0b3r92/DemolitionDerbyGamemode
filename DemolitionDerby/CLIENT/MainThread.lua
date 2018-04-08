@@ -1,4 +1,4 @@
-GameStarted = false; GameRunning = false; StartState = nil; ReadyPlayers = {}; ReferenceProp = 0; CurrentlySpectating = -1
+GameStarted = false; GameRunning = false; StartState = nil; ReadyPlayers = {}; CurrentlySpectating = -1
 
 local function GetLivingPlayers()
 	local Players = GetPlayers()
@@ -150,7 +150,7 @@ Citizen.CreateThread(function()
 				if StartState == 3 then
 					Draw(GetLabelText('collision_3mddt3c'), 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"Get Ready"
 				elseif StartState == 2 then
-					Draw('...', 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0)
+					Draw('...', 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"..."
 				elseif StartState == 1 then
 					Draw(GetLabelText('collision_yq6ipu7') .. '!', 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"GO"
 				elseif StartState == 0 then
@@ -181,10 +181,9 @@ Citizen.CreateThread(function()
 				else
 					FreezeEntityPosition(PlayerPedId(), false)
 					FreezeEntityPosition(GetVehiclePedIsIn(PlayerPedId(), false), false)
-					local ReferenceCoords = GetEntityCoords(ReferenceProp, true)
 					local MyCoords = GetEntityCoords(PlayerPedId(), true)
 					
-					if ReferenceCoords.z - MyCoords.z > 5.0 then
+					if ReferenceZ - MyCoords.z > 5.0 then
 						NetworkExplodeVehicle(GetVehiclePedIsIn(PlayerPedId(), false), true, true, 0)
 					end
 				end

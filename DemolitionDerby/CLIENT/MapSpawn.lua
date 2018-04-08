@@ -1,4 +1,4 @@
-SpawnedProps = {}; MapReceived = {false}; SpawnMeNow = false; MapSpawned = false; MySpawnPosition = nil
+SpawnedProps = {}; MapReceived = {false}; SpawnMeNow = false; MapSpawned = false; MySpawnPosition = nil; ReferenceZ = 0.0
 
 function SpawnMap(MapName, MapTable)
 	if #MapTable.Vehicles >= 32 then
@@ -13,6 +13,9 @@ function SpawnMap(MapName, MapTable)
 		SpawnedProps = {}
 		
 		for Key, Value in ipairs(MapTable.Props) do
+			if Key == 1 then
+				ReferenceZ = tonumber(Value.Z)
+			end
 			if IsModelValid(tonumber(Value.ModelHash)) then
 				if not HasModelLoaded(tonumber(Value.ModelHash)) then
 					RequestModel(tonumber(Value.ModelHash))
@@ -64,7 +67,8 @@ AddEventHandler('DD:Client:SpawnMap', function(MapName, MapTable, Source)
 end)
 
 RegisterNetEvent('DD:Client:Props')
-AddEventHandler('DD:Client:Props', function(Props)
+AddEventHandler('DD:Client:Props', function(Props, RefZ)
+	ReferenceZ = RefZ
 	SpawnedProps = Props
 	
 	MySpawnPosition = MapReceived[3].Vehicles[PlayerId() + 1]
@@ -87,7 +91,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 		if MapSpawned then
-			TriggerServerEvent('DD:Server:Props', SpawnedProps)
+			TriggerServerEvent('DD:Server:Props', SpawnedProps, ReferenceZ)
 			MapSpawned = false
 		end
 	end
