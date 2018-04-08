@@ -77,3 +77,44 @@ function Respawn()
 	SetPedRandomProps(PlayerPedId())
 end
 
+function PreIBUse(ScaleformName, Controls)
+	local ScaleformHandle = RequestScaleformMovie(ScaleformName)
+	while not HasScaleformMovieLoaded(ScaleformHandle) do
+		Citizen.Wait(0)
+	end
+	
+	PushScaleformMovieFunction(ScaleformHandle, "CLEAR_ALL")
+	PopScaleformMovieFunctionVoid()
+	
+	PushScaleformMovieFunction(ScaleformHandle, "SET_CLEAR_SPACE")
+	PushScaleformMovieFunctionParameterInt(200)
+	PopScaleformMovieFunctionVoid()
+
+	for Key, Value in pairs(Controls) do
+		PushScaleformMovieFunction(ScaleformHandle, "SET_DATA_SLOT")
+		PushScaleformMovieFunctionParameterInt(Value.Slot)
+		if Value.Control == 'Load' then
+			PushScaleformMovieMethodParameterInt(50)
+		else
+			PushScaleformMovieMethodParameterButtonName(GetControlInstructionalButton(0, Value.Control, true))
+		end
+		BeginTextCommandScaleformString("STRING")
+		AddTextComponentScaleform(Value.Text)
+		EndTextCommandScaleformString()
+		PopScaleformMovieFunctionVoid()
+	end
+
+	PushScaleformMovieFunction(ScaleformHandle, "DRAW_INSTRUCTIONAL_BUTTONS")
+	PopScaleformMovieFunctionVoid()
+
+	PushScaleformMovieFunction(ScaleformHandle, "SET_BACKGROUND_COLOUR")
+	PushScaleformMovieFunctionParameterInt(0)
+	PushScaleformMovieFunctionParameterInt(0)
+	PushScaleformMovieFunctionParameterInt(0)
+	PushScaleformMovieFunctionParameterInt(80)
+	PopScaleformMovieFunctionVoid()
+
+	return ScaleformHandle
+end
+
+

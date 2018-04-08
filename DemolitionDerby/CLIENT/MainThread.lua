@@ -117,7 +117,7 @@ Citizen.CreateThread(function()
 end)
 
 Citizen.CreateThread(function()
-	local Players, LivingPlayer
+	local Players, LivingPlayer, ScaleformHandle, ScaleformCheckValue = -1
 	while true do
 		Citizen.Wait(0)
 		Players = GetPlayers()
@@ -131,7 +131,12 @@ Citizen.CreateThread(function()
 			local WaitingTime = GetGameTimer(); Waiting = true
 			while Waiting do
 				Citizen.Wait(0)
-				Draw(GetLabelText('FM_COR_WAIT'), 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"Waiting for other players..."
+				if ScaleformCheckValue ~= 0 then
+					ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", {{['Slot'] = 0, ['Control'] = 'Load', ['Text'] = GetLabelText('FM_COR_WAIT')}})
+					ScaleformCheckValue = 0
+				end
+				DrawScaleformMovieFullscreen(ScaleformHandle, 255, 255, 255, 255, 0)
+				
 				if (#ReadyPlayers == #Players) or ((GetGameTimer() - WaitingTime) >= 10000) then
 					Waiting = false
 				end
@@ -190,9 +195,25 @@ Citizen.CreateThread(function()
 			end
 		else
 			if #Players >= 2 then
-				Draw(GetLabelText('FM_COR_HEIWAIT'), 255, 0, 0, 255, 0.5, 0.95, 0.5, 0.5, 2, true, 0) --"Waiting on host"
+				if NetworkIsHost() then
+					if ScaleformCheckValue ~= 1 then
+						ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", {{['Slot'] = 0, ['Control'] = 166, ['Text'] = GetLabelText('R2P_MENU_LAU')}})
+						ScaleformCheckValue = 1
+					end
+					DrawScaleformMovieFullscreen(ScaleformHandle, 255, 255, 255, 255, 0)
+				else
+					if ScaleformCheckValue ~= 2 then
+						ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", {{['Slot'] = 0, ['Control'] = 'Load', ['Text'] = GetLabelText('FM_COR_HEIWAIT')}})
+						ScaleformCheckValue = 2
+					end
+					DrawScaleformMovieFullscreen(ScaleformHandle, 255, 255, 255, 255, 0)
+				end
 			else
-				Draw(GetLabelText('FM_UNB_TEAM'):gsub('~1~', '2'):gsub('~a~', 'Demolition Derby'), 255, 0, 0, 255, 0.5, 0.95, 0.5, 0.5, 2, true, 0) --"~r~Demolition Derby requires 2 players.~s~"
+				if ScaleformCheckValue ~= 3 then
+					ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", {{['Slot'] = 0, ['Control'] = 'Load', ['Text'] = GetLabelText('FM_UNB_TEAM'):gsub('~1~', '2'):gsub('~a~', 'Demolition Derby')}})
+					ScaleformCheckValue = 3
+				end
+				DrawScaleformMovieFullscreen(ScaleformHandle, 255, 255, 255, 255, 0)
 			end
 		end
 	end
@@ -210,10 +231,11 @@ end)
 
 RegisterNetEvent('DD:Client:GameFinished')
 AddEventHandler('DD:Client:GameFinished', function()
-	GameStarted = false; GameRunning = false; StartState = nil
+	GameStarted = false; GameRunning = false; StartState = nil; ReadyPlayers = {}
 	if NetworkIsInSpectatorMode() then
 		Spectate(false, PlayerId())
 	end
+	CurrentlySpectating = -1
 	Respawn()
 end)
 
