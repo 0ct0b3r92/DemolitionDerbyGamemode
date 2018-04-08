@@ -183,7 +183,7 @@ Citizen.CreateThread(function()
 					FreezeEntityPosition(GetVehiclePedIsIn(PlayerPedId(), false), false)
 					local MyCoords = GetEntityCoords(PlayerPedId(), true)
 					
-					if ReferenceZ - MyCoords.z > 5.0 then
+					if ReferenceZ - MyCoords.z > 10.0 then
 						NetworkExplodeVehicle(GetVehiclePedIsIn(PlayerPedId(), false), true, true, 0)
 					end
 				end
