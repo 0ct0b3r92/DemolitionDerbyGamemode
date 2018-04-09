@@ -226,6 +226,11 @@ Citizen.CreateThread(function()
 				DrawScaleformMovieFullscreen(ScaleformHandle, 255, 255, 255, 255, 0)
 			end
 		end
+		if not GameStarted and not GameRunning then
+			SetEntityInvincible(GetPlayerPed(-1), true)	
+		else
+			SetEntityInvincible(GetPlayerPed(-1), false)
+		end
 	end
 end)
 
