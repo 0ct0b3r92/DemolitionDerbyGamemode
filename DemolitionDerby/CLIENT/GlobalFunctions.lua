@@ -68,6 +68,22 @@ function ShowNotification(Text)
 	DrawNotification(false, true)
 end
 
+function GetRandomVehicle()
+	local RandomIndex = GetRandomIntInRange(1, #Vehicles)
+	if not IsModelValid(GetHashKey(Vehicles[RandomIndex])) then
+		return GetRandomVehicle()
+	end
+	return GetHashKey(Vehicles[RandomIndex])
+end
+
+function GetRandomPed()
+	local RandomIndex = GetRandomIntInRange(1, #Peds)
+	if not IsModelValid(GetHashKey(Peds[RandomIndex][1])) then
+		return GetRandomPed()
+	end
+	return Peds[RandomIndex][1]
+end
+
 function Respawn()
 	exports.spawnmanager:spawnPlayer(SpawnLocations[PlayerId() + 1])
 	

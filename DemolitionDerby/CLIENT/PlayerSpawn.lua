@@ -33,24 +33,6 @@ SpawnLocations = {
 				  {-1288, 440.748, 97.69459},
 			     }
 
-
-
-local function GetRandomVehicle()
-	local RandomIndex = GetRandomIntInRange(1, #Vehicles)
-	if not IsModelValid(GetHashKey(Vehicles[RandomIndex])) then
-		return GetRandomVehicle()
-	end
-	return GetHashKey(Vehicles[RandomIndex])
-end
-
-local function GetRandomPed()
-	local RandomIndex = GetRandomIntInRange(1, #Peds)
-	if not IsModelValid(GetHashKey(Peds[RandomIndex][1])) then
-		return GetRandomPed()
-	end
-	return Peds[RandomIndex][1]
-end
-
 function SpawnMe()
 	if IsPedInAnyVehicle(PlayerPedId(), false) then
 		SetEntityAsMissionEntity(GetVehiclePedIsIn(PlayerPedId(), false), true, true)
@@ -73,8 +55,12 @@ function SpawnMe()
 		Citizen.Wait(0)
 	end
 	SetPedIntoVehicle(PlayerPedId(), VehicleHandle, -1)
-	SetEntityCoords(VehicleHandle, X, Y, Z, false, false, false, false)
 	SetEntityRotation(VehicleHandle, Pitch, Roll, Yaw, 0, true)
+	SetPedCanBeKnockedOffVehicle(PlayerPedId(), 1)
+	SetPedCanBeDraggedOut(PlayerPedId(), false)
+	SetPedConfigFlag(PlayerPedId(), 32, false)
+	
+	FreezeEntityPosition(VehicleHandle, true)
 	
 	SetVehicleDoorsLocked(VehicleHandle, 4)
 	SetVehicleDoorsLockedForAllPlayers(VehicleHandle, true)
@@ -82,10 +68,13 @@ function SpawnMe()
 	
 	SetModelAsNoLongerNeeded(Vehicle)
 	
-	Citizen.Wait(2500)
+	while not IsEntityAtCoord(VehicleHandle, X, Y, Z, 2.5, 2.5, 1.0, 0, 1, 0) do
+		Citizen.Wait(0)
+		SetEntityCoords(VehicleHandle, X, Y, Z, false, false, false, false)
+		SetEntityRotation(VehicleHandle, Pitch, Roll, Yaw, 0, true)
+		SetVehicleOnGroundProperly(VehicleHandle)
+	end
 	
-	SetVehicleOnGroundProperly(VehicleHandle)
-	FreezeEntityPosition(VehicleHandle, true)
 	
 	DoScreenFadeIn(2500)
 	while IsScreenFadingIn() do
@@ -97,27 +86,4 @@ function SpawnMe()
 	GameStarted = true
 	return ShowNotification('~g~' .. GetLabelText('FM_COR_FLCH'):gsub('~a~', MapReceived[2]))
 end
-
-RegisterNetEvent('DD:Client:SpawnMe')
-AddEventHandler('DD:Client:SpawnMe', function(Vehicle, MapName, Prop, SpawnLocation)
-end)
-
-AddEventHandler('onClientMapStart', function()
-	for Key, Value in ipairs(SpawnLocations) do
-		local SpawnPoint = exports.spawnmanager:addSpawnPoint(
-															  {
-															   x = Value[1],
-															   y = Value[2],
-															   z = Value[3],
-															   heading = 0.0,
-															   model = GetRandomPed()
-															  }
-															 )
-		SpawnLocations[Key] = SpawnPoint
-	end
-
-	Respawn()
-	exports.spawnmanager:setAutoSpawn(false)
-	TriggerServerEvent('DD:Server:IsGameRunning')
-end)
 

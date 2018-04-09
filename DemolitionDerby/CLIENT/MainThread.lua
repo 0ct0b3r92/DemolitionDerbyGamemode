@@ -57,7 +57,9 @@ local function SetSpectating(LivingPlayer)
 end
 
 local function SpectatingControl(LivingPlayer)
-	if IsControlJustPressed(1, 34) or IsControlJustPressed(1, 174) then
+	ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", {{['Slot'] = 0, ['Control'] = 175, ['Text'] = GetLabelText('HUD_SPECDN')}, {['Slot'] = 1, ['Control'] = 174, ['Text'] = GetLabelText('HUD_SPECUP')}})
+	DrawScaleformMovieFullscreen(ScaleformHandle, 255, 255, 255, 255, 0)
+	if IsControlJustPressed(1, 174) then
 		LivingPlayer = GetLivingPlayers()
 		local CurrentKey = GetKeyInTable(LivingPlayer, CurrentlySpectating)
 		if CurrentKey == 1 then
@@ -66,7 +68,7 @@ local function SpectatingControl(LivingPlayer)
 			CurrentlySpectating = LivingPlayer[CurrentKey - 1]
 		end
 		Spectate(true, CurrentlySpectating)
-	elseif IsControlJustPressed(1, 35) or IsControlJustPressed(1, 175) then
+	elseif IsControlJustPressed(1, 175) then
 		LivingPlayer = GetLivingPlayers()
 		local CurrentKey = GetKeyInTable(LivingPlayer, CurrentlySpectating)
 		if CurrentKey < #LivingPlayer then
@@ -165,6 +167,7 @@ Citizen.CreateThread(function()
 			local WaitingTime = GetGameTimer(); Waiting = true
 			while Waiting do
 				Citizen.Wait(0)
+				Draw(GetLabelText('FM_COR_PRDY'):gsub('~1~', #ReadyPlayers, 1):gsub('~1~', #Players), 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"*Specific Amount* of *Amount Players* ready"
 				if ScaleformCheckValue ~= 0 then
 					ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", WaitingForOtherPlayers)
 					ScaleformCheckValue = 0
@@ -191,7 +194,7 @@ Citizen.CreateThread(function()
 				elseif StartState == 2 then
 					Draw('...', 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"..."
 				elseif StartState == 1 then
-					Draw(GetLabelText('collision_yq6ipu7') .. '!', 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"GO"
+					Draw(GetLabelText('collision_yq6ipu7') .. '!', 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"GO!"
 				elseif StartState == 0 then
 					GameRunning = true
 				end
@@ -234,25 +237,5 @@ Citizen.CreateThread(function()
 			end
 		end
 	end
-end)
-
-RegisterNetEvent('DD:Client:Countdown')
-AddEventHandler('DD:Client:Countdown', function(State)
-	StartState = State
-end)
-
-RegisterNetEvent('DD:Client:Ready')
-AddEventHandler('DD:Client:Ready', function(Player)
-	table.insert(ReadyPlayers, Player)
-end)
-
-RegisterNetEvent('DD:Client:GameFinished')
-AddEventHandler('DD:Client:GameFinished', function()
-	GameStarted = false; GameRunning = false; StartState = nil; ReadyPlayers = {}
-	if NetworkIsInSpectatorMode() then
-		Spectate(false, PlayerId())
-	end
-	CurrentlySpectating = -1
-	Respawn()
 end)
 

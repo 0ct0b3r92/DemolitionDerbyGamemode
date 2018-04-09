@@ -24,12 +24,12 @@ end
 
 
 local function scaleform_is_int(number)
-	return type(number) == "number" and not string.find(tostring(number), '%.')
+	return type(number) == 'number' and not string.find(tostring(number), '%.')
 end
 
 
 function Scaleform.Request(id)
-	if type(id) ~= "string" then
+	if type(id) ~= 'string' then
 		Citizen.Trace('Scaleform: unable to request '..tostring(id))
 		return nil
 	end
@@ -55,7 +55,7 @@ end
 function Scaleform.Call(scaleform, func, ...)
 	if not scaleform_is_valid(scaleform) then return end
 
-	if type(func) ~= "string" then
+	if type(func) ~= 'string' then
 		Citizen.Trace('Scaleform: unable to call '..tostring(func)..' func')
 		return
 	end

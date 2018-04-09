@@ -57,26 +57,6 @@ function SpawnMap(MapName, MapTable)
 	end
 end
 
-RegisterNetEvent('DD:Client:SpawnMap')
-AddEventHandler('DD:Client:SpawnMap', function(MapName, MapTable, Source)
-	MapReceived[2] = MapName
-	MapReceived[3] = MapTable
-	if GetPlayerServerId(PlayerId()) == Source then
-		MapReceived[1] = true
-	end
-end)
-
-RegisterNetEvent('DD:Client:Props')
-AddEventHandler('DD:Client:Props', function(Props, RefZ)
-	ReferenceZ = RefZ
-	SpawnedProps = Props
-	
-	MySpawnPosition = MapReceived[3].Vehicles[PlayerId() + 1]
-	if MySpawnPosition then
-		SpawnMeNow = true
-	end
-end)
-
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)

@@ -37,3 +37,8 @@ AddEventHandler('DD:Server:GameFinished', function()
 	TriggerClientEvent('DD:Client:GameFinished', -1)
 end)
 
+RegisterServerEvent('DD:Server:IsGameRunning')
+AddEventHandler('DD:Server:IsGameRunning', function(Player)
+	TriggerClientEvent('DD:Client:IsGameRunning', -1, Player)
+end)
+

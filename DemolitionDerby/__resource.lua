@@ -7,6 +7,7 @@ client_script {
 	'CLIENT/Scaleform.lua',
 	'CLIENT/Peds.lua',
 	'CLIENT/Vehicles.lua',
+	'CLIENT/NetEvents.lua',
 	'CLIENT/GlobalFunctions.lua',
 	'CLIENT/TimeAndWeatherSync.lua',
 	'CLIENT/MapSpawn.lua',
@@ -19,5 +20,5 @@ server_script {
 	'SERVER/SlotReserving.lua',
 	'SERVER/MapToLUA.lua',
 	'SERVER/MapsManager.lua',
-	'SERVER/Events.lua',
+	'SERVER/ServerEvents.lua',
 }

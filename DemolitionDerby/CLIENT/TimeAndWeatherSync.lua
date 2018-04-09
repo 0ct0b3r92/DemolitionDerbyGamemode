@@ -1,5 +1,6 @@
 function SyncTimeAndWeather()
-	local WeatherTypes = {[GetHashKey('BLIZZARD')] = 'BLIZZARD',
+	local WeatherTypes = {
+						  [GetHashKey('BLIZZARD')] = 'BLIZZARD',
 						  [GetHashKey('CLEAR')] = 'CLEAR',
 						  [GetHashKey('CLEARING')] = 'CLEARING',
 						  [GetHashKey('CLOUDS')] = 'CLOUDS',
@@ -19,14 +20,4 @@ function SyncTimeAndWeather()
 	local Weather = WeatherTypes[GetPrevWeatherTypeHashName()]
 	TriggerServerEvent('DD:Server:SyncTimeAndWeather', Time, Weather)
 end
-
-RegisterNetEvent('DD:Client:SyncTimeAndWeather')
-AddEventHandler('DD:Client:SyncTimeAndWeather', function(Time, Weather)
-	if not NetworkIsHost() then
-		SetClockDate(Time.Date, Time.Month, Time.Day)
-		SetClockTime(Time.Hour, Time.Minute, Time.Second)
-		SetWeatherTypeNow(Weather)
-		SetOverrideWeather(Weather)
-	end
-end)
 
