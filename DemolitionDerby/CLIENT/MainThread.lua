@@ -109,7 +109,7 @@ Citizen.CreateThread(function()
 
 		if NetworkIsHost() then
 			SyncTimeAndWeather()
-			if not GameStarted and (#Players >= 1) and IsControlJustPressed(1, 166) then
+			if not GameStarted and (#Players >= 2) and IsControlJustPressed(1, 166) then
 				TriggerServerEvent('DD:Server:GetRandomMap')
 				GameStarted = true
 			end
