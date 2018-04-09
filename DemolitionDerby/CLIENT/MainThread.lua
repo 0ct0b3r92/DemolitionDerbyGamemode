@@ -137,7 +137,31 @@ Citizen.CreateThread(function()
 		BlockWeaponWheelThisFrame()
 		SetCurrentPedWeapon(PlayerPedId(), GetHashKey('WEAPON_UNARMED'), true)
 
-		if GameStarted and not GameRunning then
+		if not GameStarted and not GameRunning then
+			SetEntityInvincible(PlayerPedId(), true)
+			if #Players >= 2 then
+				if NetworkIsHost() then
+					if ScaleformCheckValue ~= 1 then
+						ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", HostStart)
+						ScaleformCheckValue = 1
+					end
+					DrawScaleformMovieFullscreen(ScaleformHandle, 255, 255, 255, 255, 0)
+				else
+					if ScaleformCheckValue ~= 2 then
+						ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", WaitingForHost)
+						ScaleformCheckValue = 2
+					end
+					DrawScaleformMovieFullscreen(ScaleformHandle, 255, 255, 255, 255, 0)
+				end
+			else
+				if ScaleformCheckValue ~= 3 then
+					ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", MorePlayerNeeded)
+					ScaleformCheckValue = 3
+				end
+				DrawScaleformMovieFullscreen(ScaleformHandle, 255, 255, 255, 255, 0)
+			end			
+		elseif GameStarted and not GameRunning then
+			SetEntityInvincible(PlayerPedId(), false)
 			local WaitingTime = GetGameTimer(); Waiting = true
 			while Waiting do
 				Citizen.Wait(0)
@@ -172,8 +196,7 @@ Citizen.CreateThread(function()
 					GameRunning = true
 				end
 			end
-		end
-		if GameRunning then
+		elseif GameStarted and GameRunning then
 			if IsEntityDead(PlayerPedId()) then
 				if not NetworkIsInSpectatorMode() then
 					ScreenFadeOut()
@@ -194,6 +217,12 @@ Citizen.CreateThread(function()
 					GameStarted = false; GameRunning = false; StartState = nil
 					TriggerServerEvent('DD:Server:GameFinished')
 				else
+					SetPedCanBeKnockedOffVehicle(PlayerPedId(), 1)
+					SetPedConfigFlag(PlayerPedId(), 32, false)
+					if IsPedRagdoll(PlayerPedId()) then
+						SetPedIntoVehicle(PlayerPedId(), GetVehiclePedIsIn(PlayerPedId(), false), -1)
+					end
+					SetEntityInvincible(PlayerPedId(), false)
 					FreezeEntityPosition(PlayerPedId(), false)
 					FreezeEntityPosition(GetVehiclePedIsIn(PlayerPedId(), false), false)
 					local MyCoords = GetEntityCoords(PlayerPedId(), true)
@@ -203,33 +232,6 @@ Citizen.CreateThread(function()
 					end
 				end
 			end
-		else
-			if #Players >= 2 then
-				if NetworkIsHost() then
-					if ScaleformCheckValue ~= 1 then
-						ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", HostStart)
-						ScaleformCheckValue = 1
-					end
-					DrawScaleformMovieFullscreen(ScaleformHandle, 255, 255, 255, 255, 0)
-				else
-					if ScaleformCheckValue ~= 2 then
-						ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", WaitingForHost)
-						ScaleformCheckValue = 2
-					end
-					DrawScaleformMovieFullscreen(ScaleformHandle, 255, 255, 255, 255, 0)
-				end
-			else
-				if ScaleformCheckValue ~= 3 then
-					ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", MorePlayerNeeded)
-					ScaleformCheckValue = 3
-				end
-				DrawScaleformMovieFullscreen(ScaleformHandle, 255, 255, 255, 255, 0)
-			end
-		end
-		if not GameStarted and not GameRunning then
-			SetEntityInvincible(GetPlayerPed(-1), true)	
-		else
-			SetEntityInvincible(GetPlayerPed(-1), false)
 		end
 	end
 end)
