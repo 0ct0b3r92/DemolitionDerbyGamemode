@@ -118,15 +118,15 @@ Citizen.CreateThread(function()
 end)
 
 Citizen.CreateThread(function()
+	while not RequestingDone do
+		Citizen.Wait(0)
+	end
+
 	local Players, LivingPlayer, ScaleformHandle, ScaleformCheckValue = -1
 	local WaitingForOtherPlayers = {{['Slot'] = 0, ['Control'] = 'Load', ['Text'] = GetLabelText('FM_COR_WAIT')}};
 		  HostStart = {{['Slot'] = 0, ['Control'] = 166, ['Text'] = GetLabelText('R2P_MENU_LAU')}};
 		  WaitingForHost = {{['Slot'] = 0, ['Control'] = 'Load', ['Text'] = GetLabelText('FM_COR_HEIWAIT')}};
 		  MorePlayerNeeded = {{['Slot'] = 0, ['Control'] = 'Load', ['Text'] = GetLabelText('PM_WAIT')}, {['Slot'] = 1, ['Control'] = -1, ['Text'] = GetLabelText('FM_UNB_TEAM'):gsub('~1~', '2'):gsub('~a~', 'Demolition Derby'):gsub('~r~', ''):gsub('~s~', '')}};
-
-	while not RequestingDone do
-		Citizen.Wait(0)
-	end
 
 	while true do
 		Citizen.Wait(0)

@@ -2,14 +2,14 @@ local MaxSlots = 32
 local WaitingDuration = 5 --Seconds
 
 AddEventHandler('playerConnecting', function(PlayerName, KickReason, Deferrals)
-	if GetConvar('UseQueue', false) == 'true' then
+	if GetConvarInt('UseQueue', 0) == 1 then
 		Deferrals.defer()
 
 		local Source = source
 		
 		local Tries = 0
 		Citizen.CreateThread(function()
-			while Tries < tonumber(GetConvar('QueueMaxTries', 10)) do
+			while Tries < tonumber(GetConvarInt('QueueMaxTries', 10)) do
 				Tries = Tries + 1
 				if GetNumPlayerIndices() < (MaxSlots - tonumber(GetConvar('ReservedSlots', 0))) then
 					Deferrals.update('Yeah, got a free Slot. Joining now!')
@@ -23,7 +23,7 @@ AddEventHandler('playerConnecting', function(PlayerName, KickReason, Deferrals)
 						Deferrals.update('No free Slot, trying again in ' .. WaitingDuration .. ' Seconds. - Tries: ' .. Tries .. '/' .. (GetConvar('QueueMaxTries', 10)))
 					end
 				end
-				if Tries ~= tonumber(GetConvar('ReservedSlots', 0)) then
+				if Tries ~= tonumber(GetConvarInt('ReservedSlots', 0)) then
 					Citizen.Wait(WaitingDuration * 1000)
 				end
 			end
