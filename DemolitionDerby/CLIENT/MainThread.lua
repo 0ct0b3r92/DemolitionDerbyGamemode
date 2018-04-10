@@ -205,7 +205,7 @@ Citizen.CreateThread(function()
 					ScreenFadeOut()
 					RemoveMyVehicle()
 					TeleportMyBodyAway()
-					if not #LivingPlayer == 1 then
+					if not #LivingPlayer == 1 or 0 then
 						SetSpectating(LivingPlayer)
 						ScreenFadeIn()
 					end
@@ -213,7 +213,7 @@ Citizen.CreateThread(function()
 					SpectatingControl(LivingPlayer)
 				end
 			else
-				if #LivingPlayer == 1 then
+				if #LivingPlayer == 1 or 0 then
 					ScreenFadeOut()
 					RemoveMyVehicle()
 					TeleportMyBodyAway()
