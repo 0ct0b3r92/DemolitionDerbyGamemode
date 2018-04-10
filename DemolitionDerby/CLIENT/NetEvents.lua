@@ -48,6 +48,21 @@ AddEventHandler('DD:Client:SyncTimeAndWeather', function(Time, Weather)
 	end
 end)
 
+RegisterNetEvent('DD:Client:IsGameRunning')
+AddEventHandler('DD:Client:IsGameRunning', function(Player)
+	if NetworkIsHost() then
+		TriggerServerEvent('DD:Server:IsGameRunningAnswer', Player, GameStarted)
+	end
+end)
+
+RegisterNetEvent('DD:Client:IsGameRunningAnswer')
+AddEventHandler('DD:Client:IsGameRunningAnswer', function(State)
+	GameStarted = State; GameRunning = State
+	if GameStarted then
+		SetEntityHealth(PlayerPedId(), 0)
+	end
+end)
+
 AddEventHandler('onClientMapStart', function()
 	for Key, Value in ipairs(SpawnLocations) do
 		local SpawnPoint = exports.spawnmanager:addSpawnPoint(
@@ -64,6 +79,6 @@ AddEventHandler('onClientMapStart', function()
 
 	Respawn()
 	exports.spawnmanager:setAutoSpawn(false)
-	TriggerServerEvent('DD:Server:IsGameRunning')
+	TriggerServerEvent('DD:Server:IsGameRunning'))
 end)
 

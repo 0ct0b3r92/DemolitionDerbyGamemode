@@ -40,6 +40,7 @@ local function TeleportMyBodyAway()
 end
 
 local function SetSpectating()
+	local LivingPlayer = GetLivingPlayers()
 	CurrentlySpectating = LivingPlayer[GetRandomIntInRange(1, #LivingPlayer)]
 	while IsPlayerDead(CurrentlySpectating) do
 		Citizen.Wait(0)
@@ -208,7 +209,9 @@ Citizen.CreateThread(function()
 					SetSpectating()
 					ScreenFadeIn(2500)
 				else
-					SpectatingControl(LivingPlayer)
+					if not #LivingPlayer == 1 and not #LivingPlayer == 0 then
+						SpectatingControl(LivingPlayer)
+					end
 				end
 			else
 				if #LivingPlayer == 1 or #LivingPlayer == 0 then
