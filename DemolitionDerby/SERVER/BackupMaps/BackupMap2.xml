@@ -51,11 +51,11 @@
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x680553f4</ModelHash>
+		<ModelHash>0x9C0AC08</ModelHash>
 		<Type>3</Type>
 		<Dynamic>false</Dynamic>
 		<FrozenPos>true</FrozenPos>
-		<HashName>prop_windmill_01_slod2</HashName>
+		<HashName>prop_windmill</HashName>
 		<InitialHandle>398862</InitialHandle>
 		<ObjectProperties>
 			<TextureVariation>0</TextureVariation>
@@ -85,11 +85,11 @@
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x680553f4</ModelHash>
+		<ModelHash>0x9C0AC08</ModelHash>
 		<Type>3</Type>
 		<Dynamic>false</Dynamic>
 		<FrozenPos>true</FrozenPos>
-		<HashName>prop_windmill_01_slod2</HashName>
+		<HashName>prop_windmill</HashName>
 		<InitialHandle>231959</InitialHandle>
 		<ObjectProperties>
 			<TextureVariation>0</TextureVariation>
@@ -119,11 +119,11 @@
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x680553f4</ModelHash>
+		<ModelHash>0x9C0AC08</ModelHash>
 		<Type>3</Type>
 		<Dynamic>false</Dynamic>
 		<FrozenPos>true</FrozenPos>
-		<HashName>prop_windmill_01_slod2</HashName>
+		<HashName>prop_windmill</HashName>
 		<InitialHandle>710168</InitialHandle>
 		<ObjectProperties>
 			<TextureVariation>0</TextureVariation>

@@ -1,16 +1,37 @@
-SpawnedProps = {}; MapReceived = {false}; SpawnMeNow = false; MapSpawned = false; MySpawnPosition = nil; ReferenceZ = 0.0
+SpawnedPropsLocal = {}; SpawnedProps = {}; MapReceived = {false}; SpawnMeNow = false; MapSpawned = false; MySpawnPosition = nil; ReferenceZ = 0.0
 
 function SpawnMap(MapName, MapTable)
 	if #MapTable.Vehicles >= 32 then
 		for Key, Value in ipairs(SpawnedProps) do
-			while DoesEntityExist(NetworkGetEntityFromNetworkId(Value)) do
+			local EntityHandle = NetworkGetEntityFromNetworkId(Value)
+			while DoesEntityExist(EntityHandle) do
 				Citizen.Wait(0)
-				NetworkRequestControlOfNetworkId(Value)
-				NetworkRequestControlOfEntity(NetworkGetEntityFromNetworkId(Value))
-				DeleteObject(NetworkGetEntityFromNetworkId(Value))
+				while not NetworkHasControlOfNetworkId(Value) do
+					NetworkRequestControlOfNetworkId(Value)
+				end
+				NetworkUnregisterNetworkedEntity(EntityHandle)
+				while not NetworkHasControlOfEntity(EntityHandle) do
+					NetworkRequestControlOfEntity(EntityHandle)
+				end
+				if not IsEntityAMissionEntity(EntityHandle) then
+					SetEntityAsMissionEntity(EntityHandle, true, true)
+				end
+				DeleteObject(EntityHandle)
 			end
 		end
+		
+		for Key, Value in ipairs(SpawnedPropsLocal) do
+			while DoesEntityExist(Value) do
+				Citizen.Wait(0)
+				if not IsEntityAMissionEntity(Value) then
+					SetEntityAsMissionEntity(Value, true, true)
+				end
+				DeleteObject(Value)
+			end
+		end
+		
 		SpawnedProps = {}
+		SpawnedPropsLocal = {}
 		
 		for Key, Value in ipairs(MapTable.Props) do
 			if Key == 1 then
@@ -38,7 +59,7 @@ function SpawnMap(MapName, MapTable)
 				SetModelAsNoLongerNeeded(tonumber(Value.ModelHash))
 				
 				local PropNetID = NetworkGetNetworkIdFromEntity(Prop)
-				for i = 1, 10 do
+				while not NetworkGetEntityIsNetworked(Prop) do
 					PropNetID = NetworkGetNetworkIdFromEntity(Prop)
 					NetworkRegisterEntityAsNetworked(Prop)
 					SetNetworkIdCanMigrate(PropNetID, true)
@@ -46,6 +67,7 @@ function SpawnMap(MapName, MapTable)
 					NetworkRequestControlOfEntity(Prop)
 				end
 
+				table.insert(SpawnedPropsLocal, Prop)
 				table.insert(SpawnedProps, PropNetID)
 			end
 		end
