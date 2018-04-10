@@ -84,6 +84,11 @@ function GetRandomPed()
 	return Peds[RandomIndex][1]
 end
 
+function Spectate(Toggle, Player)
+	NetworkSetOverrideSpectatorMode(Toggle)
+	NetworkSetInSpectatorMode(Toggle, GetPlayerPed(Player))
+end
+
 function Respawn()
 	exports.spawnmanager:spawnPlayer(SpawnLocations[PlayerId() + 1])
 	

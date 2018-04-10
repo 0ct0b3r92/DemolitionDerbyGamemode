@@ -11,15 +11,15 @@ local function GetLivingPlayers()
 	return LivingPlayers
 end
 
-local function ScreenFadeOut()
-	DoScreenFadeOut(2500)
+local function ScreenFadeOut(Duration)
+	DoScreenFadeOut(Duration)
 	while IsScreenFadingOut() do
 		Citizen.Wait(0)
 	end
 end
 
-local function ScreenFadeIn()
-	DoScreenFadeIn(2500)
+local function ScreenFadeIn(Duration)
+	DoScreenFadeIn(Duration)
 	while IsScreenFadingIn() do
 		Citizen.Wait(0)
 	end
@@ -39,21 +39,14 @@ local function TeleportMyBodyAway()
 	end
 end
 
-local function Spectate(Toggle, Player)
-	NetworkSetOverrideSpectatorMode(Toggle)
-	NetworkSetInSpectatorMode(Toggle, GetPlayerPed(Player))
-end
-
-local function SetSpectating(LivingPlayer)
-	if not NetworkIsInSpectatorMode() then
+local function SetSpectating()
+	CurrentlySpectating = LivingPlayer[GetRandomIntInRange(1, #LivingPlayer)]
+	while IsPlayerDead(CurrentlySpectating) do
+		Citizen.Wait(0)
+		LivingPlayer = GetLivingPlayers()
 		CurrentlySpectating = LivingPlayer[GetRandomIntInRange(1, #LivingPlayer)]
-		while IsPlayerDead(CurrentlySpectating) do
-			Citizen.Wait(0)
-			LivingPlayer = GetLivingPlayers()
-			CurrentlySpectating = LivingPlayer[GetRandomIntInRange(1, #LivingPlayer)]
-		end
-		Spectate(true, CurrentlySpectating)
 	end
+	Spectate(true, CurrentlySpectating)
 end
 
 local function SpectatingControl(LivingPlayer)
@@ -67,7 +60,9 @@ local function SpectatingControl(LivingPlayer)
 		else
 			CurrentlySpectating = LivingPlayer[CurrentKey - 1]
 		end
+		ScreenFadeOut(1500)
 		Spectate(true, CurrentlySpectating)
+		ScreenFadeIn(1500)
 	elseif IsControlJustPressed(1, 175) then
 		LivingPlayer = GetLivingPlayers()
 		local CurrentKey = GetKeyInTable(LivingPlayer, CurrentlySpectating)
@@ -76,7 +71,9 @@ local function SpectatingControl(LivingPlayer)
 		else
 			CurrentlySpectating = LivingPlayer[1]
 		end
+		ScreenFadeOut(1500)
 		Spectate(true, CurrentlySpectating)
+		ScreenFadeIn(1500)
 	end
 end
 
@@ -140,6 +137,9 @@ Citizen.CreateThread(function()
 		SetCurrentPedWeapon(PlayerPedId(), GetHashKey('WEAPON_UNARMED'), true)
 
 		if not GameStarted and not GameRunning then
+			if IsScreenFadedOut() then
+				ScreenFadeIn(2500)
+			end
 			SetEntityInvincible(PlayerPedId(), true)
 			if #Players >= 2 then
 				if NetworkIsHost() then
@@ -202,22 +202,20 @@ Citizen.CreateThread(function()
 		elseif GameStarted and GameRunning then
 			if IsEntityDead(PlayerPedId()) then
 				if not NetworkIsInSpectatorMode() then
-					ScreenFadeOut()
+					ScreenFadeOut(2500)
 					RemoveMyVehicle()
 					TeleportMyBodyAway()
-					if not #LivingPlayer == 1 then
-						SetSpectating(LivingPlayer)
-						ScreenFadeIn()
-					end
+					SetSpectating()
+					ScreenFadeIn(2500)
 				else
 					SpectatingControl(LivingPlayer)
 				end
 			else
-				if #LivingPlayer == 1 then
-					ScreenFadeOut()
+				if #LivingPlayer == 1 or #LivingPlayer == 0 then
+					GameStarted = false; GameRunning = false; StartState = nil; ReadyPlayers = {}
+					ScreenFadeOut(2500)
 					RemoveMyVehicle()
 					TeleportMyBodyAway()
-					GameStarted = false; GameRunning = false; StartState = nil
 					TriggerServerEvent('DD:Server:GameFinished')
 				else
 					SetPedCanBeKnockedOffVehicle(PlayerPedId(), 1)
