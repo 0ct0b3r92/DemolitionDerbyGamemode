@@ -79,6 +79,6 @@ AddEventHandler('onClientMapStart', function()
 
 	Respawn()
 	exports.spawnmanager:setAutoSpawn(false)
-	TriggerServerEvent('DD:Server:IsGameRunning'))
+	TriggerServerEvent('DD:Server:IsGameRunning')
 end)
 
