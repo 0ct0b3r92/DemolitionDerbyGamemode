@@ -50,31 +50,45 @@ local function SetSpectating()
 	Spectate(true, CurrentlySpectating)
 end
 
-local function SpectatingControl(LivingPlayer)
+local function PreviousPlayer(LivingPlayer, CurrentKey)
+	local LivingPlayer = GetLivingPlayers()
+	if CurrentKey and CurrentKey == 1 then
+		CurrentlySpectating = LivingPlayer[#LivingPlayer]
+	else
+		CurrentlySpectating = LivingPlayer[CurrentKey - 1]
+	end
+	ScreenFadeOut(1500)
+	Spectate(true, CurrentlySpectating)
+	ScreenFadeIn(1500)
+end
+
+local function NextPlayer(LivingPlayer, CurrentKey)
+	local LivingPlayer = GetLivingPlayers()
+	if CurrentKey and CurrentKey < #LivingPlayer then
+		CurrentlySpectating = LivingPlayer[CurrentKey + 1]
+	else
+		CurrentlySpectating = LivingPlayer[1]
+	end
+	ScreenFadeOut(1500)
+	Spectate(true, CurrentlySpectating)
+	ScreenFadeIn(1500)
+end
+
+local function SpectatingControl()
+	local LivingPlayer = GetLivingPlayers()
+	local CurrentKey = GetKeyInTable(LivingPlayer, CurrentlySpectating)
+	
+	if IsPlayerDead(CurrentlySpectating) then
+		NextPlayer(LivingPlayer, CurrentKey)
+	end
+	
 	ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", {{['Slot'] = 0, ['Control'] = 175, ['Text'] = GetLabelText('HUD_SPECDN')}, {['Slot'] = 1, ['Control'] = 174, ['Text'] = GetLabelText('HUD_SPECUP')}})
 	DrawScaleformMovieFullscreen(ScaleformHandle, 255, 255, 255, 255, 0)
+	
 	if IsControlJustPressed(1, 174) then
-		LivingPlayer = GetLivingPlayers()
-		local CurrentKey = GetKeyInTable(LivingPlayer, CurrentlySpectating)
-		if CurrentKey == 1 then
-			CurrentlySpectating = LivingPlayer[#LivingPlayer]
-		else
-			CurrentlySpectating = LivingPlayer[CurrentKey - 1]
-		end
-		ScreenFadeOut(1500)
-		Spectate(true, CurrentlySpectating)
-		ScreenFadeIn(1500)
+		PreviousPlayer(LivingPlayer, CurrentKey)
 	elseif IsControlJustPressed(1, 175) then
-		LivingPlayer = GetLivingPlayers()
-		local CurrentKey = GetKeyInTable(LivingPlayer, CurrentlySpectating)
-		if CurrentKey < #LivingPlayer then
-			CurrentlySpectating = LivingPlayer[CurrentKey + 1]
-		else
-			CurrentlySpectating = LivingPlayer[1]
-		end
-		ScreenFadeOut(1500)
-		Spectate(true, CurrentlySpectating)
-		ScreenFadeIn(1500)
+		NextPlayer(LivingPlayer, CurrentKey)
 	end
 end
 
@@ -201,17 +215,16 @@ Citizen.CreateThread(function()
 				end
 			end
 		elseif GameStarted and GameRunning then
-			if IsEntityDead(PlayerPedId()) then
+			if IsPlayerDead(PlayerId()) then
 				if not NetworkIsInSpectatorMode() then
 					ScreenFadeOut(2500)
 					RemoveMyVehicle()
 					TeleportMyBodyAway()
 					SetSpectating()
 					ScreenFadeIn(2500)
-				else
-					if not #LivingPlayer == 1 and not #LivingPlayer == 0 then
-						SpectatingControl(LivingPlayer)
-					end
+				end
+				if #LivingPlayer ~= 1 and #LivingPlayer ~= 0 then
+					SpectatingControl()
 				end
 			else
 				if #LivingPlayer == 1 or #LivingPlayer == 0 then
