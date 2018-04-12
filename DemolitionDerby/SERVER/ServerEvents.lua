@@ -47,3 +47,9 @@ AddEventHandler('DD:Server:IsGameRunningAnswer', function(Player, State)
 	TriggerClientEvent('DD:Client:IsGameRunningAnswer', Player, State)
 end)
 
+AddEventHandler( "playerConnecting", function(name, setReason, deferrals)
+	while not GameStarted and not GameRunning do
+		deferrals.defer()
+		deferrals.update("A Game Is Currently In Progress. Please Wait...")
+	end
+end)
