@@ -1,10 +1,12 @@
 local  timeUntilKicked = 180
+local  timeUntilChecked = 1
 local time = timeUntilKicked
 
 Citizen.CreateThread(function()
   while true do
+    TriggerServerEvent('DD:Server:PingKick')
     local prevPlyCoords = GetEntityCoords(GetPlayerPed(-1))
-    Citizen.Wait(1000)
+    Citizen.Wait(timeUntilChecked * 1000)
     local plyCoords = GetEntityCoords(GetPlayerPed(-1))
     if prevPlyCoords == plyCoords then
       if time > 0 then
