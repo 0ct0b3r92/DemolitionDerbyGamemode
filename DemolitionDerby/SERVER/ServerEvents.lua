@@ -1,9 +1,9 @@
 local CurrentlySpawnedProps = {}
 
-RegisterServerEvent('DD:Server:Props')
-AddEventHandler('DD:Server:Props', function(SpawnedProps, ReferenceZ)
+RegisterServerEvent('DD:Server:MapInformations')
+AddEventHandler('DD:Server:MapInformations', function(SpawnedProps, ReferenceZ, RandomVehicleClass)
 	CurrentlySpawnedProps = SpawnedProps
-	TriggerClientEvent('DD:Client:Props', -1, CurrentlySpawnedProps, ReferenceZ)
+	TriggerClientEvent('DD:Client:MapInformations', -1, CurrentlySpawnedProps, ReferenceZ, RandomVehicleClass)
 end)
 
 RegisterServerEvent('DD:Server:SyncTimeAndWeather')
@@ -39,7 +39,11 @@ end)
 
 RegisterServerEvent('DD:Server:IsGameRunning')
 AddEventHandler('DD:Server:IsGameRunning', function()
-	TriggerClientEvent('DD:Client:IsGameRunning', -1, source)
+	if GetNumPlayerIndices() > 1 then
+		TriggerClientEvent('DD:Client:IsGameRunning', -1, source)
+	else
+		TriggerClientEvent('DD:Client:IsGameRunningAnswer', source, false)
+	end
 end)
 
 RegisterServerEvent('DD:Server:IsGameRunningAnswer')
@@ -47,9 +51,3 @@ AddEventHandler('DD:Server:IsGameRunningAnswer', function(Player, State)
 	TriggerClientEvent('DD:Client:IsGameRunningAnswer', Player, State)
 end)
 
-AddEventHandler( "playerConnecting", function(name, setReason, deferrals)
-	while not GameStarted and not GameRunning do
-		deferrals.defer()
-		deferrals.update("A Game Is Currently In Progress. Please Wait...")
-	end
-end)

@@ -1,3 +1,5 @@
+resource_type 'gametype' { name = 'Demolition Derby' }
+
 resource_manifest_version '05cfa83c-a124-4cfa-a768-c24a5811d8f9'
 
 description 'Demolition Derby - A gamemode by Scotty & Flatracer'
@@ -13,10 +15,13 @@ client_script {
 	'CLIENT/MapSpawn.lua',
 	'CLIENT/PlayerSpawn.lua',
 	'CLIENT/MainThread.lua',
+	'CLIENT/GamerTags.lua',
 }
 
 server_script {
+	'SERVER/GeneralStuff.lua',
 	'SERVER/GlobalFunctions.lua',
+	'SERVER/BugReport.lua',
 	'SERVER/SlotReserving.lua',
 	'SERVER/MapToLUA.lua',
 	'SERVER/MapsManager.lua',

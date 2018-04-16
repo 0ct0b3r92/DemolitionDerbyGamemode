@@ -24,13 +24,16 @@ AddEventHandler('DD:Client:SpawnMap', function(MapName, MapTable, Source)
 	MapReceived[3] = MapTable
 	if GetPlayerServerId(PlayerId()) == Source then
 		MapReceived[1] = true
+	else
+		MapReceived[1] = false
 	end
 end)
 
-RegisterNetEvent('DD:Client:Props')
-AddEventHandler('DD:Client:Props', function(Props, RefZ)
+RegisterNetEvent('DD:Client:MapInformations')
+AddEventHandler('DD:Client:MapInformations', function(Props, RefZ, RandomVehicleClass)
 	ReferenceZ = RefZ
 	SpawnedProps = Props
+	VehicleClass = RandomVehicleClass
 	
 	MySpawnPosition = MapReceived[3].Vehicles[PlayerId() + 1]
 	if MySpawnPosition then
@@ -58,12 +61,12 @@ end)
 RegisterNetEvent('DD:Client:IsGameRunningAnswer')
 AddEventHandler('DD:Client:IsGameRunningAnswer', function(State)
 	GameStarted = State; GameRunning = State
-	if GameStarted then
-		SetEntityHealth(PlayerPedId(), 0)
+	if not GameStarted then
+		Respawn()
 	end
 end)
 
-AddEventHandler('onClientMapStart', function()
+AddEventHandler('onClientGameTypeStart', function()
 	for Key, Value in ipairs(SpawnLocations) do
 		local SpawnPoint = exports.spawnmanager:addSpawnPoint(
 															  {
@@ -77,8 +80,12 @@ AddEventHandler('onClientMapStart', function()
 		SpawnLocations[Key] = SpawnPoint
 	end
 
-	Respawn()
 	exports.spawnmanager:setAutoSpawn(false)
-	TriggerServerEvent('DD:Server:IsGameRunning')
+	
+	if NetworkGetNumConnectedPlayers() > 1 then
+		TriggerServerEvent('DD:Server:IsGameRunning')
+	else
+		TriggerEvent('DD:Client:IsGameRunningAnswer', false)
+	end
 end)
 

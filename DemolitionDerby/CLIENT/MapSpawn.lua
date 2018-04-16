@@ -1,4 +1,4 @@
-SpawnedPropsLocal = {}; SpawnedProps = {}; MapReceived = {false}; SpawnMeNow = false; MapSpawned = false; MySpawnPosition = nil; ReferenceZ = 0.0
+SpawnedPropsLocal = {}; SpawnedProps = {}; MapReceived = {false}; MapSpawned = false; MySpawnPosition = nil; ReferenceZ = 0.0
 
 function SpawnMap(MapName, MapTable)
 	if #MapTable.Vehicles >= 32 then
@@ -7,18 +7,15 @@ function SpawnMap(MapName, MapTable)
 			while DoesEntityExist(EntityHandle) do
 				Citizen.Wait(0)
 				while not NetworkHasControlOfNetworkId(Value) do
+					Citizen.Wait(0)
 					NetworkRequestControlOfNetworkId(Value)
 				end
-				NetworkUnregisterNetworkedEntity(EntityHandle)
-				while not NetworkHasControlOfEntity(EntityHandle) do
-					NetworkRequestControlOfEntity(EntityHandle)
-				end
-				if not IsEntityAMissionEntity(EntityHandle) then
-					SetEntityAsMissionEntity(EntityHandle, true, true)
-				end
+				SetEntityAsMissionEntity(EntityHandle, false, true)
 				DeleteObject(EntityHandle)
 			end
 		end
+		
+		SpawnedProps = {}
 		
 		for Key, Value in ipairs(SpawnedPropsLocal) do
 			while DoesEntityExist(Value) do
@@ -30,7 +27,6 @@ function SpawnMap(MapName, MapTable)
 			end
 		end
 		
-		SpawnedProps = {}
 		SpawnedPropsLocal = {}
 		
 		for Key, Value in ipairs(MapTable.Props) do
@@ -49,24 +45,32 @@ function SpawnMap(MapName, MapTable)
 					end
 				end
 				local Prop = CreateObjectNoOffset(tonumber(Value.ModelHash), tonumber(Value.X), tonumber(Value.Y), tonumber(Value.Z), true, false, Dynamic)
+				SetEntityLodDist(Prop, 65535)
 				SetEntityCoords(Prop, tonumber(Value.X), tonumber(Value.Y), tonumber(Value.Z), false, false, false, false)
 				if tonumber(Value.Pitch) < 0.0 then
 					Value.Pitch = 180.0 + math.abs(tonumber(Value.Pitch))
 				end
 				SetEntityRotation(Prop, tonumber(Value.Pitch), tonumber(Value.Roll), tonumber(Value.Yaw), 3, 0)
 				FreezeEntityPosition(Prop, true)
+				
+				SetEntityAsMissionEntity(Prop, false, true)
+				
+				local PropNetID = NetworkGetNetworkIdFromEntity(Prop)
+				while not N_0xb07d3185e11657a5(Prop) do
+					Citizen.Wait(0)
+					if NetworkHasControlOfNetworkId(Prop) then
+						PropNetID = NetworkGetNetworkIdFromEntity(Prop)
+						NetworkRegisterEntityAsNetworked(Prop)
+						SetNetworkIdCanMigrate(PropNetID, true)
+						SetNetworkIdExistsOnAllMachines(PropNetID, true)
+					else
+						NetworkRequestControlOfEntity(Prop)
+					end
+				end
+
 				SetEntityAsMissionEntity(Prop, true, true)
 				SetModelAsNoLongerNeeded(tonumber(Value.ModelHash))
 				
-				local PropNetID = NetworkGetNetworkIdFromEntity(Prop)
-				while not NetworkGetEntityIsNetworked(Prop) do
-					PropNetID = NetworkGetNetworkIdFromEntity(Prop)
-					NetworkRegisterEntityAsNetworked(Prop)
-					SetNetworkIdCanMigrate(PropNetID, true)
-					SetNetworkIdExistsOnAllMachines(PropNetID, true)
-					NetworkRequestControlOfEntity(Prop)
-				end
-
 				table.insert(SpawnedPropsLocal, Prop)
 				table.insert(SpawnedProps, PropNetID)
 			end
@@ -93,18 +97,9 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 		if MapSpawned then
-			TriggerServerEvent('DD:Server:Props', SpawnedProps, ReferenceZ)
+			TriggerServerEvent('DD:Server:MapInformations', SpawnedProps, ReferenceZ, GetRandomVehicleClass())
 			MapSpawned = false
 		end
 	end
 end)
 
-Citizen.CreateThread(function()
-	while true do
-		Citizen.Wait(0)
-		if SpawnMeNow then
-			SpawnMe()
-			SpawnMeNow = false
-		end
-	end
-end)

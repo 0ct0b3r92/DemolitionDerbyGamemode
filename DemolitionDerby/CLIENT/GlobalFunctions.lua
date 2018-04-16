@@ -68,12 +68,28 @@ function ShowNotification(Text)
 	DrawNotification(false, true)
 end
 
-function GetRandomVehicle()
-	local RandomIndex = GetRandomIntInRange(1, #Vehicles)
-	if not IsModelValid(GetHashKey(Vehicles[RandomIndex])) then
-		return GetRandomVehicle()
+function GetRandomVehicleClass()
+	local Class = GetRandomIntInRange(0, 8)
+	if Class == 8 then
+		Class = 9
 	end
-	return GetHashKey(Vehicles[RandomIndex])
+	return Class
+end
+
+function GetRandomVehicleFromClass(Class)
+	local ClassVehicles = {}
+	for Key, Value in ipairs(Vehicles) do
+		if GetVehicleClassFromName(GetHashKey(Value)) == Class then
+			table.insert(ClassVehicles, Value)
+		end
+	end
+	
+	local RandomIndex = GetRandomIntInRange(1, #ClassVehicles)
+	local Vehicle = GetHashKey(ClassVehicles[RandomIndex])
+	if not IsModelValid(Vehicle) then
+		return GetRandomVehicleFromClass(Class)
+	end
+	return Vehicle
 end
 
 function GetRandomPed()
@@ -82,6 +98,20 @@ function GetRandomPed()
 		return GetRandomPed()
 	end
 	return Peds[RandomIndex][1]
+end
+
+function ScreenFadeOut(Duration)
+	DoScreenFadeOut(Duration)
+	while IsScreenFadingOut() do
+		Citizen.Wait(0)
+	end
+end
+
+function ScreenFadeIn(Duration)
+	DoScreenFadeIn(Duration)
+	while IsScreenFadingIn() do
+		Citizen.Wait(0)
+	end
 end
 
 function Spectate(Toggle, Player)
@@ -137,5 +167,4 @@ function PreIBUse(ScaleformName, Controls)
 
 	return ScaleformHandle
 end
-
 
