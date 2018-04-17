@@ -1,14 +1,13 @@
-local maxPing = 400
+local MaxPing = 400
 
 RegisterServerEvent('DD:Server:AFKKick')
 AddEventHandler('DD:Server:AFKKick', function()
-  DropPlayer(source, 'You were AFK for too long. (3 minutes)')
+	DropPlayer(source, 'AFK for too long!')
 end)
 
-RegisterServerEvent('DD:Server:PingKick')
-AddEventHandler('DD:Server:PingKick', function()
-  local ping = GetPlayerPing(source)
-  if ping > maxPing then
-    DropPlayer(source, 'Your ping was too high. (' .. ping .. '/' .. maxPing .. ')')
-  end
+RegisterServerEvent('DD:Server:PingCheck')
+AddEventHandler('DD:Server:PingCheck', function()
+	if GetPlayerPing(source) > MaxPing then
+		DropPlayer(source, 'Ping too high. (' .. GetPlayerPing(source) .. '/' .. MaxPing .. ')')
+	end
 end)
