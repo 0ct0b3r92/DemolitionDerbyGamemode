@@ -25,6 +25,6 @@ RegisterCommand("bugreport", function(Source, Arguments, RawCommand)
 	
 	SaveResourceFile(GetCurrentResourceName(), 'BugReports' .. GetOSSep() .. 'BugReport_' .. CurrentVersion .. '_' .. date.day .. '.' .. date.month .. '.' .. date.year .. '.txt', Content, -1)
 
-	print(GetPlayerName(Source) .. ' reported a bug!')
+	print(GetPlayerName(Source) .. ' reported a bug!\n>> ' .. Content)
 end, false)
 

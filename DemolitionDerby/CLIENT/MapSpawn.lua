@@ -78,6 +78,7 @@ function SpawnMap(MapName, MapTable)
 		MapSpawned = true
 	else
 		GameStarted = false
+		ShowNotification('~r~ERROR!~n~Only ' .. #MapTable.Vehicles .. ' Spawnpoints!')
 		ShowNotification('~r~' .. GetLabelText('FMMC_RANDFAIL'))
 		ShowNotification('~y~' .. GetLabelText('USJ_FAILSAFE'))
 	end

@@ -120,6 +120,10 @@ function Spectate(Toggle, Player)
 end
 
 function Respawn()
+	if GetIsLoadingScreenActive() then
+		ShutdownLoadingScreen()
+		ShutdownLoadingScreenNui()
+	end
 	exports.spawnmanager:spawnPlayer(SpawnLocations[PlayerId() + 1])
 	
 	Citizen.Wait(5000)

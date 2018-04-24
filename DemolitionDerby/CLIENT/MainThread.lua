@@ -1,4 +1,4 @@
-GameStarted = false; GameRunning = false; StartState = nil; ReadyPlayers = {}; CurrentlySpectating = -1; RequestingDone = false
+GameStarted = false; GameRunning = false; StartState = nil; ReadyPlayers = {}; CurrentlySpectating = -1; RequestingDone = false; CountdownScaleform = nil
 
 local function GetLivingPlayers()
 	local Players = GetPlayers()
@@ -81,6 +81,38 @@ local function SpectatingControl()
 	end
 end
 
+local function Countdown(State)
+	local CountdownMessages = {{GetLabelText('collision_yq6ipu7') .. '!', ''}, {'...', ''}, {GetLabelText('collision_3mddt3c'), ''}}
+	if not HasScaleformMovieLoaded(CountdownScaleform) then
+		CountdownScaleform = RequestScaleformMovie('MP_BIG_MESSAGE_FREEMODE')
+		while not HasScaleformMovieLoaded(CountdownScaleform) do
+			Citizen.Wait(0)
+		end
+	end
+
+	if State ~= 0 then
+		BeginScaleformMovieMethod(CountdownScaleform, 'SHOW_SHARD_WASTED_MP_MESSAGE')
+		PushScaleformMovieMethodParameterString('~r~' .. CountdownMessages[State][1])
+		PushScaleformMovieMethodParameterString('~y~' .. CountdownMessages[State][2])
+		EndScaleformMovieMethod()
+		DrawScaleformMovieFullscreen(CountdownScaleform, 255, 255, 255, 255)
+	else
+		if not GameRunning then
+			GameRunning = true
+		end
+	end
+	
+--[[	if State == 3 then
+		Draw(GetLabelText('collision_3mddt3c'), 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"Get Ready"
+	elseif State == 2 then
+		Draw('...', 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"..."
+	elseif State == 1 then
+		Draw(GetLabelText('collision_yq6ipu7') .. '!', 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"GO!"
+	elseif State == 0 then
+		GameRunning = true
+	end]]
+end
+
 Citizen.CreateThread(function()
 	local AT = {'fmmc'}
 	local Players; RescueFadedOutScreen = true
@@ -119,7 +151,7 @@ Citizen.CreateThread(function()
 
 		if NetworkIsHost() then
 			SyncTimeAndWeather()
-			if not GameStarted and (#Players >= 2) and IsControlJustPressed(1, 166) then
+			if not GameStarted and (#Players > 1) and IsControlJustPressed(1, 166) then
 				TriggerServerEvent('DD:Server:GetRandomMap')
 				GameStarted = true
 			end
@@ -156,7 +188,7 @@ Citizen.CreateThread(function()
 				SetEntityInvincible(PlayerPedId(), true)
 			end
 			
-			if #Players >= 2 then
+			if #Players > 1 then
 				if NetworkIsHost() then
 					if ScaleformCheckValue ~= 1 then
 						ScaleformHandle = PreIBUse("INSTRUCTIONAL_BUTTONS", HostStart)
@@ -204,14 +236,8 @@ Citizen.CreateThread(function()
 					end
 					TriggerServerEvent('DD:Server:Countdown', State)
 				end
-				if StartState == 3 then
-					Draw(GetLabelText('collision_3mddt3c'), 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"Get Ready"
-				elseif StartState == 2 then
-					Draw('...', 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"..."
-				elseif StartState == 1 then
-					Draw(GetLabelText('collision_yq6ipu7') .. '!', 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"GO!"
-				elseif StartState == 0 then
-					GameRunning = true
+				if StartState then
+					Countdown(StartState)
 				end
 			end
 		elseif GameStarted and GameRunning then
