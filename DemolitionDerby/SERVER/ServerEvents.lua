@@ -1,9 +1,11 @@
 local CurrentlySpawnedProps = {}
 
 RegisterServerEvent('DD:Server:MapInformations')
-AddEventHandler('DD:Server:MapInformations', function(SpawnedProps, ReferenceZ, RandomVehicleClass)
+--AddEventHandler('DD:Server:MapInformations', function(SpawnedProps, ReferenceZ, RandomVehicleClass)
+AddEventHandler('DD:Server:MapInformations', function(RandomVehicleClass)
 	CurrentlySpawnedProps = SpawnedProps
-	TriggerClientEvent('DD:Client:MapInformations', -1, CurrentlySpawnedProps, ReferenceZ, RandomVehicleClass)
+--	TriggerClientEvent('DD:Client:MapInformations', -1, CurrentlySpawnedProps, ReferenceZ, RandomVehicleClass)
+	TriggerClientEvent('DD:Client:MapInformations', -1, RandomVehicleClass)
 end)
 
 RegisterServerEvent('DD:Server:SyncTimeAndWeather')
