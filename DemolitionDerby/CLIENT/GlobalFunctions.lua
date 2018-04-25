@@ -43,6 +43,17 @@ function GetPlayers()
     return Players
 end
 
+function GetLivingPlayers()
+	local Players = GetPlayers()
+	local LivingPlayers = {}
+	for Key, Player in ipairs(Players) do
+		if not IsPlayerDead(Player[1]) then
+			table.insert(LivingPlayers, Player[1])
+		end
+	end
+	return LivingPlayers
+end
+
 function Draw(Text, R, G, B, A, X, Y, Width, Height, Layer, Center, Font)
 	SetTextColour(R, G, B, A)
 	SetTextFont(Font)
@@ -119,6 +130,25 @@ function Spectate(Toggle, Player)
 	NetworkSetInSpectatorMode(Toggle, GetPlayerPed(Player))
 end
 
+SpawnLocations = {
+				  {261.4586, -998.8196, -99.00863}, {-18.07856, -583.6725, 79.46569},
+				  {-35.31277, -580.4199, 88.71221}, {-1468.14, -541.815, 73.4442},
+				  {-1477.14, -538.7499, 55.5264}, {-915.811, -379.432, 113.6748},
+				  {-614.86, 40.6783, 97.60007}, {-773.407, 341.766, 211.397},
+				  {-169.286, 486.4938, 137.4436}, {340.9412, 437.1798, 149.3925},
+				  {373.023, 416.105, 145.7006}, {-676.127, 588.612, 145.1698},
+				  {-763.107, 615.906, 144.1401}, {-857.798, 682.563, 152.6529},
+				  {120.5, 549.952, 184.097}, {-1288, 440.748, 97.69459},
+				  {261.4586, -998.8196, -99.00863}, {-18.07856, -583.6725, 79.46569},
+				  {-35.31277, -580.4199, 88.71221}, {-1468.14, -541.815, 73.4442},
+				  {-1477.14, -538.7499, 55.5264}, {-915.811, -379.432, 113.6748},
+				  {-614.86, 40.6783, 97.60007}, {-773.407, 341.766, 211.397},
+				  {-169.286, 486.4938, 137.4436}, {340.9412, 437.1798, 149.3925},
+				  {373.023, 416.105, 145.7006}, {-676.127, 588.612, 145.1698},
+				  {-763.107, 615.906, 144.1401}, {-857.798, 682.563, 152.6529},
+				  {120.5, 549.952, 184.097}, {-1288, 440.748, 97.69459},
+			     };
+				 
 function Respawn()
 	if GetIsLoadingScreenActive() then
 		ShutdownLoadingScreen()

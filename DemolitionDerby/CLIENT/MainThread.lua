@@ -1,16 +1,5 @@
 GameStarted = false; GameRunning = false; StartState = nil; ReadyPlayers = {}; CurrentlySpectating = -1; RequestingDone = false; CountdownScaleform = nil
 
-local function GetLivingPlayers()
-	local Players = GetPlayers()
-	local LivingPlayers = {}
-	for Key, Player in ipairs(Players) do
-		if not IsPlayerDead(Player[1]) then
-			table.insert(LivingPlayers, Player[1])
-		end
-	end
-	return LivingPlayers
-end
-
 local function RemoveMyVehicle()
 	if IsPedInAnyVehicle(PlayerPedId(), false) then
 		SetEntityAsMissionEntity(GetVehiclePedIsIn(PlayerPedId(), false), true, true)
