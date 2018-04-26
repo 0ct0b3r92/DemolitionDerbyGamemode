@@ -54,6 +54,19 @@ function GetLivingPlayers()
 	return LivingPlayers
 end
 
+function DrawTxt(text, x, y)
+  SetTextFont(0)
+  SetTextProportional(1)
+  SetTextScale(0.0, 0.35)
+  SetTextDropshadow(1, 0, 0, 0, 255)
+  SetTextEdge(1, 0, 0, 0, 255)
+  SetTextDropShadow()
+  SetTextOutline()
+  SetTextEntry("STRING")
+  AddTextComponentString(text)
+  DrawText(x, y)
+end
+
 function Draw(Text, R, G, B, A, X, Y, Width, Height, Layer, Center, Font)
 	SetTextColour(R, G, B, A)
 	SetTextFont(Font)
