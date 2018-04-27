@@ -15,8 +15,3 @@ RegisterNetEvent('DD:Client:UpdateLosses')
 AddEventHandler('DD:Client:UpdateLosses', function(newLosses)
     losses = newLosses
 end)
-
-RegisterCommand('testy', function()
-	TriggerServerEvent('DD:Server:UpdateWins')
-	TriggerEvent('chatMessage', '', {255, 255, 255}, wins)
-end)
