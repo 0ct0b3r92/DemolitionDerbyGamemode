@@ -32,12 +32,13 @@ end)
 RegisterServerEvent("DD:Server:UpdateWins")
 AddEventHandler("DD:Server:UpdateWins", function()
 	local identifier = GetPlayerIdentifiers(source)[1]
+	local player = source
     MySQL.Async.fetchAll("SELECT * FROM users WHERE identifier = @identifier", {
         ["@identifier"] = identifier
     }, function(user_data)
 	
 		local wins = user_data[1].wins
-		TriggerClientEvent('DD:Client:UpdateWins', wins)
+		TriggerClientEvent('DD:Client:UpdateWins', player, wins)
 		print(tostring("Win Updated For " .. identifier))
 		 
 	end)
