@@ -17,7 +17,7 @@ client_script {
 	'CLIENT/MainThread.lua',
 	'CLIENT/GamerTags.lua',
 	'CLIENT/AFKPingKick.lua',
-	'CLIENT/AFKPingKick.lua',
+	'CLIENT/UI.lua',
 }
 
 server_script {
