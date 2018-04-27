@@ -3,7 +3,7 @@ Citizen.CreateThread(function()
 		Citizen.Wait(0)
 		local x = 0.825
 		local y = 0.1
-		DrawTxt('~y~Players Demolished: ' .. 'dis no work' .. '/' .. GetNumberOfPlayers(), x, y)
+		DrawTxt('~y~Players Demolished: ' .. '0' .. '/' .. GetNumberOfPlayers(), x, y)
 		y = y + 0.03
 		DrawTxt('~y~Players left: ', x, y)
 		y = y + 0.03
