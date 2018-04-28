@@ -60,3 +60,18 @@ AddEventHandler("DD:Server:AddLoss", function()
         end)
     end)
 end)
+
+RegisterServerEvent("DD:Server:UpdateLosses")
+AddEventHandler("DD:Server:UpdateLosses", function()
+	local identifier = GetPlayerIdentifiers(source)[1]
+	local player = source
+    MySQL.Async.fetchAll("SELECT * FROM users WHERE identifier = @identifier", {
+        ["@identifier"] = identifier
+    }, function(user_data)
+	
+		local losses = user_data[1].losses
+		TriggerClientEvent('DD:Client:UpdateLosses', player, losses)
+		print(tostring("Loss Updated For " .. identifier))
+		 
+	end)
+end)
