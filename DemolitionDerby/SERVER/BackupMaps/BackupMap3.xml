@@ -12,17 +12,17 @@
 	<WeatherToSet></WeatherToSet>
 	<StartTaskSequencesOnLoad>true</StartTaskSequencesOnLoad>
 	<ReferenceCoords>
-		<X>-537.033752</X>
-		<Y>-1682.25366</Y>
-		<Z>324.766815</Z>
+		<X>-2420.18604</X>
+		<Y>-2129.89868</Y>
+		<Z>140.003922</Z>
 	</ReferenceCoords>
 	<Placement>
-		<ModelHash>0x393268b6</ModelHash>
+		<ModelHash>0x53724bb0</ModelHash>
 		<Type>3</Type>
 		<Dynamic>false</Dynamic>
 		<FrozenPos>true</FrozenPos>
-		<HashName>bkr_prop_biker_bblock_huge_02</HashName>
-		<InitialHandle>569870</InitialHandle>
+		<HashName>stt_prop_stunt_bowling_ball</HashName>
+		<InitialHandle>105481</InitialHandle>
 		<ObjectProperties>
 			<TextureVariation>0</TextureVariation>
 		</ObjectProperties>
@@ -33,156 +33,20 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-553.68573</X>
-			<Y>-1673.51807</Y>
-			<Z>324.564301</Z>
-			<Pitch>0</Pitch>
-			<Roll>0</Roll>
-			<Yaw>60.9190903</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x745F3383</ModelHash>
-		<Type>3</Type>
-		<Dynamic>false</Dynamic>
-		<FrozenPos>true</FrozenPos>
-		<HashName>prop_windmill_01</HashName>
-		<InitialHandle>398862</InitialHandle>
-		<ObjectProperties>
-			<TextureVariation>0</TextureVariation>
-		</ObjectProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-561.882507</X>
-			<Y>-1666.39697</Y>
-			<Z>278.816498</Z>
-			<Pitch>0</Pitch>
-			<Roll>0</Roll>
-			<Yaw>82.9138031</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x745F3383</ModelHash>
-		<Type>3</Type>
-		<Dynamic>false</Dynamic>
-		<FrozenPos>true</FrozenPos>
-		<HashName>prop_windmill_01</HashName>
-		<InitialHandle>231959</InitialHandle>
-		<ObjectProperties>
-			<TextureVariation>0</TextureVariation>
-		</ObjectProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-552.593079</X>
-			<Y>-1672.90649</Y>
-			<Z>280.084839</Z>
-			<Pitch>0</Pitch>
-			<Roll>0</Roll>
-			<Yaw>80.9212036</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x745F3383</ModelHash>
-		<Type>3</Type>
-		<Dynamic>false</Dynamic>
-		<FrozenPos>true</FrozenPos>
-		<HashName>prop_windmill_01</HashName>
-		<InitialHandle>710168</InitialHandle>
-		<ObjectProperties>
-			<TextureVariation>0</TextureVariation>
-		</ObjectProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-543.054199</X>
-			<Y>-1678.11719</Y>
-			<Z>279.568695</Z>
-			<Pitch>0</Pitch>
-			<Roll>0</Roll>
-			<Yaw>81.5264893</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x2ef52fc7</ModelHash>
-		<Type>3</Type>
-		<Dynamic>false</Dynamic>
-		<FrozenPos>true</FrozenPos>
-		<HashName>stt_prop_stunt_bblock_qp3</HashName>
-		<InitialHandle>226590</InitialHandle>
-		<ObjectProperties>
-			<TextureVariation>0</TextureVariation>
-		</ObjectProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-594.916443</X>
-			<Y>-1650.70398</Y>
-			<Z>346.573334</Z>
+			<X>-2420.28149</X>
+			<Y>-2129.92041</Y>
+			<Z>137.316437</Z>
 			<Pitch>0</Pitch>
 			<Roll>-0</Roll>
-			<Yaw>151.731094</Yaw>
+			<Yaw>146.8405</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
@@ -192,7 +56,7 @@
 		<Dynamic>false</Dynamic>
 		<FrozenPos>true</FrozenPos>
 		<HashName>stt_prop_stunt_bblock_qp3</HashName>
-		<InitialHandle>669975</InitialHandle>
+		<InitialHandle>614158</InitialHandle>
 		<ObjectProperties>
 			<TextureVariation>0</TextureVariation>
 		</ObjectProperties>
@@ -203,159 +67,33 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-508.881775</X>
-			<Y>-1698.45374</Y>
-			<Z>346.55661</Z>
-			<Pitch>2.03555488e-13</Pitch>
-			<Roll>1.11876238e-06</Roll>
-			<Yaw>-29.2027359</Yaw>
+			<X>-2292.01807</X>
+			<Y>-2129.94067</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>-0.000230193138</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>444255</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>33</Primary>
-				<Secondary>40</Secondary>
-				<Pearl>29</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>41IGT022</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>true</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>723480</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
 		<OpacityLevel>255</OpacityLevel>
 		<LodDistance>16960</LodDistance>
 		<IsVisible>true</IsVisible>
@@ -363,159 +101,33 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-539.244141</X>
-			<Y>-1696.65283</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.0026216819</Pitch>
-			<Roll>-1.87628007e-06</Roll>
-			<Yaw>61.5398178</Yaw>
+			<X>-2545.51953</X>
+			<Y>-2129.34009</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>-179.99884</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>482910</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>38</Primary>
-				<Secondary>5</Secondary>
-				<Pearl>160</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>45GPL865</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>true</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>226094</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
 		<OpacityLevel>255</OpacityLevel>
 		<LodDistance>16960</LodDistance>
 		<IsVisible>true</IsVisible>
@@ -523,35 +135,1021 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-537.041931</X>
-			<Y>-1692.59045</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.00309108221</Pitch>
-			<Roll>-3.04844707e-06</Roll>
-			<Yaw>61.5398178</Yaw>
+			<X>-2420.32031</X>
+			<Y>-2255.94067</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>-89.9995041</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>227886</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2420.9209</X>
+			<Y>-2003.4408</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>89.9981384</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>616264</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2510.91895</X>
+			<Y>-2040.74023</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>134.998215</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>232522</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2329.02002</X>
+			<Y>-2040.44055</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>44.9996033</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>65098</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2508.32031</X>
+			<Y>-2218.94067</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>-134.999725</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>97866</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2332.32031</X>
+			<Y>-2218.94067</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>-45.0000381</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>580609</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2373.81885</X>
+			<Y>-2246.8396</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>-67.4999619</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>587265</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2535.72168</X>
+			<Y>-2177.94067</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>-157.499435</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>581121</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2301.59326</X>
+			<Y>-2081.57153</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>22.4994183</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>585729</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2469.62061</X>
+			<Y>-2013.13989</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>112.597305</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>139297</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2303.9209</X>
+			<Y>-2179.64038</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>-26.6947193</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>186914</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2468.12305</X>
+			<Y>-2246.33911</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>-113.087509</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>133154</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2371.59424</X>
+			<Y>-2012.67151</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>68.9015198</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>189218</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2537.32227</X>
+			<Y>-2082.03955</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>159.799911</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>448311</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2544.32227</X>
+			<Y>-2107.03955</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>170.799667</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>463927</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2397.59424</X>
+			<Y>-2005.67151</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>79.9014206</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>468023</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2443.12305</X>
+			<Y>-2254.33911</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>-102.087341</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>448055</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2294.9209</X>
+			<Y>-2155.64038</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>-15.694684</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>730690</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2542.32227</X>
+			<Y>-2155.03955</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>-167.200165</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>714050</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2443.59424</X>
+			<Y>-2005.67151</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>100.9011</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>714562</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2397.12305</X>
+			<Y>-2254.33911</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>-80.0870132</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>714818</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2294.9209</X>
+			<Y>-2103.64038</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>12.3053102</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>469065</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2312.9209</X>
+			<Y>-2059.64038</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>32.3052444</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>456777</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2350.12305</X>
+			<Y>-2234.33911</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>-55.0868683</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>460617</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2490.59424</X>
+			<Y>-2024.67151</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>123.900688</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>464969</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2526.32227</X>
+			<Y>-2197.03955</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>-148.199783</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>361810</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2490.32227</X>
+			<Y>-2234.03955</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>-125.19912</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>365394</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2525.59424</X>
+			<Y>-2058.67163</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>-0</Roll>
+			<Yaw>147.899963</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>279634</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2316.02295</X>
+			<Y>-2200.23804</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>-36.0865707</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0x2ef52fc7</ModelHash>
+		<Type>3</Type>
+		<Dynamic>false</Dynamic>
+		<FrozenPos>true</FrozenPos>
+		<HashName>stt_prop_stunt_bblock_qp3</HashName>
+		<InitialHandle>298834</InitialHandle>
+		<ObjectProperties>
+			<TextureVariation>0</TextureVariation>
+		</ObjectProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2347.9209</X>
+			<Y>-2024.64038</Y>
+			<Z>170.349854</Z>
+			<Pitch>0</Pitch>
+			<Roll>0</Roll>
+			<Yaw>57.3050919</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>407896</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>183386</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>0</Primary>
+				<Primary>4</Primary>
 				<Secondary>0</Secondary>
-				<Pearl>5</Pearl>
+				<Pearl>111</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -567,9 +1165,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>89FQT148</NumberPlateText>
+			<NumberPlateText>41HJP691</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -622,7 +1220,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>true</_1>
+				<_10>false</_10>
+				<_11>true</_11>
+				<_12>false</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -683,355 +1283,35 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-534.840027</X>
-			<Y>-1688.52795</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.00322357053</Pitch>
-			<Roll>-6.73336808e-06</Roll>
-			<Yaw>61.5398178</Yaw>
+			<X>-2467.23047</X>
+			<Y>-2227.30591</Y>
+			<Z>149.3974</Z>
+			<Pitch>0.0493578352</Pitch>
+			<Roll>0.00175182882</Roll>
+			<Yaw>-109.862381</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>151134</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>64</Primary>
-				<Secondary>9</Secondary>
-				<Pearl>67</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>60CPG976</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>true</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-532.637634</X>
-			<Y>-1684.4657</Y>
-			<Z>325.091858</Z>
-			<Pitch>-0.00302020391</Pitch>
-			<Roll>-5.28334931e-06</Roll>
-			<Yaw>61.5398178</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>621659</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>9</Primary>
-				<Secondary>4</Secondary>
-				<Pearl>67</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>83ILO667</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>false</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-529.806702</X>
-			<Y>-1679.24316</Y>
-			<Z>325.091858</Z>
-			<Pitch>-0.00241857837</Pitch>
-			<Roll>8.89521175e-07</Roll>
-			<Yaw>61.5398178</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>176729</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>169308</InitialHandle>
 		<VehicleProperties>
 			<Colours>
 				<Primary>5</Primary>
 				<Secondary>0</Secondary>
-				<Pearl>0</Pearl>
+				<Pearl>111</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -1047,9 +1327,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>02LZX348</NumberPlateText>
+			<NumberPlateText>23IQK505</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -1102,7 +1382,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>false</_1>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>true</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -1163,35 +1445,35 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-527.2901</X>
-			<Y>-1674.60022</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.00257588574</Pitch>
-			<Roll>-0.000303834269</Roll>
-			<Yaw>61.5399246</Yaw>
+			<X>-2368.60864</X>
+			<Y>-2033.77319</Y>
+			<Z>149.397415</Z>
+			<Pitch>0.0502125807</Pitch>
+			<Roll>-0.000543246977</Roll>
+			<Yaw>66.6396332</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>595288</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>679772</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>0</Primary>
-				<Secondary>57</Secondary>
-				<Pearl>92</Pearl>
+				<Primary>6</Primary>
+				<Secondary>1</Secondary>
+				<Pearl>5</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -1207,9 +1489,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>40JHQ321</NumberPlateText>
+			<NumberPlateText>03OBM966</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -1262,7 +1544,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>true</_1>
+				<_10>true</_10>
+				<_11>false</_11>
+				<_12>false</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -1323,35 +1607,35 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-522.423767</X>
-			<Y>-1677.16821</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.00249241316</Pitch>
-			<Roll>-0.000706344261</Roll>
-			<Yaw>61.279995</Yaw>
+			<X>-2517.66479</X>
+			<Y>-2083.21777</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0493826903</Pitch>
+			<Roll>-0.000183513053</Roll>
+			<Yaw>157.216827</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>185179</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>558173</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>33</Primary>
-				<Secondary>40</Secondary>
-				<Pearl>29</Pearl>
+				<Primary>11</Primary>
+				<Secondary>1</Secondary>
+				<Pearl>4</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -1367,9 +1651,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>84WJC407</NumberPlateText>
+			<NumberPlateText>02AWB896</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -1422,7 +1706,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>true</_1>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>true</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -1483,35 +1769,35 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-525.119019</X>
-			<Y>-1682.08789</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.00328578241</Pitch>
-			<Roll>-0.000244618219</Roll>
-			<Yaw>61.2797928</Yaw>
+			<X>-2319.89355</X>
+			<Y>-2173.7749</Y>
+			<Z>149.434402</Z>
+			<Pitch>-0.0340290703</Pitch>
+			<Roll>-2.83691525</Roll>
+			<Yaw>-24.7258053</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>37713</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>324669</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>38</Primary>
-				<Secondary>5</Secondary>
-				<Pearl>160</Pearl>
+				<Primary>13</Primary>
+				<Secondary>2</Secondary>
+				<Pearl>13</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -1527,9 +1813,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>21XFK684</NumberPlateText>
+			<NumberPlateText>42SXZ211</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -1582,7 +1868,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>true</_1>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>true</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -1643,33 +1931,519 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-527.656311</X>
-			<Y>-1686.71875</Y>
-			<Z>325.091858</Z>
-			<Pitch>-0.00274014147</Pitch>
-			<Roll>-0.000243442104</Roll>
-			<Yaw>61.2797928</Yaw>
+			<X>-2313.90942</X>
+			<Y>-2102.55835</Y>
+			<Z>149.3974</Z>
+			<Pitch>0.0499900766</Pitch>
+			<Roll>-0.000480452087</Roll>
+			<Yaw>15.6553326</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>769375</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>688702</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>0</Primary>
+				<Primary>28</Primary>
+				<Secondary>31</Secondary>
+				<Pearl>38</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>64XBN117</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>false</_10>
+				<_11>true</_11>
+				<_12>false</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2523.18237</X>
+			<Y>-2155.01489</Y>
+			<Z>149.397369</Z>
+			<Pitch>0.0502061918</Pitch>
+			<Roll>-0.000138843316</Roll>
+			<Yaw>-166.089462</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>446559</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>50</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>59</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>80QLY001</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>true</_10>
+				<_11>false</_11>
+				<_12>false</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2381.70728</X>
+			<Y>-2230.46558</Y>
+			<Z>149.397415</Z>
+			<Pitch>0.0496468507</Pitch>
+			<Roll>-0.000747787533</Roll>
+			<Yaw>-68.2082901</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>174688</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>67</Primary>
+				<Secondary>1</Secondary>
+				<Pearl>111</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>27ZVD572</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>true</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2435.34375</X>
+			<Y>-2022.08789</Y>
+			<Z>149.401642</Z>
+			<Pitch>0.209230125</Pitch>
+			<Roll>-0.353514612</Roll>
+			<Yaw>95.9390793</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>391779</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>8</Primary>
 				<Secondary>0</Secondary>
 				<Pearl>5</Pearl>
 				<Rim>156</Rim>
@@ -1687,9 +2461,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>25CEU407</NumberPlateText>
+			<NumberPlateText>81BZB916</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -1742,7 +2516,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>true</_1>
+				<_10>true</_10>
+				<_11>false</_11>
+				<_12>false</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -1803,35 +2579,35 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-530.034912</X>
-			<Y>-1691.06018</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.00227419846</Pitch>
-			<Roll>-0.000247809396</Roll>
-			<Yaw>61.2797966</Yaw>
+			<X>-2310.72485</X>
+			<Y>-2141.14478</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0500780605</Pitch>
+			<Roll>0.000804644253</Roll>
+			<Yaw>-2.09960318</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>212054</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>604770</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>64</Primary>
-				<Secondary>9</Secondary>
-				<Pearl>67</Pearl>
+				<Primary>2</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>65</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -1847,9 +2623,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>85NCY883</NumberPlateText>
+			<NumberPlateText>02SZW978</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -1902,7 +2678,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>true</_1>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>true</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -1963,35 +2741,35 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-532.413757</X>
-			<Y>-1695.40222</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.00226399861</Pitch>
-			<Roll>-0.000253352744</Roll>
-			<Yaw>61.2797928</Yaw>
+			<X>-2332.33862</X>
+			<Y>-2065.25098</Y>
+			<Z>149.397446</Z>
+			<Pitch>0.0502757467</Pitch>
+			<Roll>-0.000276787847</Roll>
+			<Yaw>37.6309166</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>743774</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>573284</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>9</Primary>
-				<Secondary>4</Secondary>
-				<Pearl>67</Pearl>
+				<Primary>111</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>111</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -2007,9 +2785,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>80HSK762</NumberPlateText>
+			<NumberPlateText>48SMY252</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -2062,7 +2840,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>true</_1>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>false</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -2123,35 +2903,683 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-534.63385</X>
-			<Y>-1699.45447</Y>
-			<Z>325.091797</Z>
-			<Pitch>-0.00250765821</Pitch>
-			<Roll>-0.00160427624</Roll>
-			<Yaw>61.2797585</Yaw>
+			<X>-2401.36816</X>
+			<Y>-2024.11621</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0509669781</Pitch>
+			<Roll>0.000479589129</Roll>
+			<Yaw>77.9276657</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>755293</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>109926</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>112</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>112</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>63HFA055</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>true</_10>
+				<_11>false</_11>
+				<_12>false</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2482.33057</X>
+			<Y>-2041.47217</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0504409596</Pitch>
+			<Roll>-0.000568955264</Roll>
+			<Yaw>126.677887</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>63846</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>1</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>4</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>40PBL896</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>true</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2526.11133</X>
+			<Y>-2120.4458</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.049683623</Pitch>
+			<Roll>-5.40597612e-05</Roll>
+			<Yaw>178.297043</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>14439</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>0</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>3</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>65XRP291</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>true</_10>
+				<_11>false</_11>
+				<_12>false</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2505.87329</X>
+			<Y>-2194.47778</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0498628393</Pitch>
+			<Roll>0.000430061918</Roll>
+			<Yaw>-141.608276</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>515943</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>4</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>111</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>65DII295</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>true</_10>
+				<_11>false</_11>
+				<_12>false</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2426.58691</X>
+			<Y>-2237.28271</Y>
+			<Z>149.397476</Z>
+			<Pitch>0.0510423481</Pitch>
+			<Roll>-0.00103610905</Roll>
+			<Yaw>-94.0115128</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>726855</InitialHandle>
 		<VehicleProperties>
 			<Colours>
 				<Primary>5</Primary>
 				<Secondary>0</Secondary>
-				<Pearl>0</Pearl>
+				<Pearl>111</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -2167,9 +3595,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>28SVS860</NumberPlateText>
+			<NumberPlateText>03DTJ149</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -2222,7 +3650,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>false</_1>
+				<_10>true</_10>
+				<_11>false</_11>
+				<_12>false</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -2283,35 +3713,35 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-578.496643</X>
-			<Y>-1675.48035</Y>
-			<Z>325.091766</Z>
-			<Pitch>-0.00261527696</Pitch>
-			<Roll>-0.00109144952</Roll>
-			<Yaw>-118.963448</Yaw>
+			<X>-2353.01782</X>
+			<Y>-2212.22803</Y>
+			<Z>149.397415</Z>
+			<Pitch>0.0493761078</Pitch>
+			<Roll>-4.90119528e-05</Roll>
+			<Yaw>-48.6884384</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>175199</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>130408</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>0</Primary>
-				<Secondary>57</Secondary>
-				<Pearl>92</Pearl>
+				<Primary>11</Primary>
+				<Secondary>1</Secondary>
+				<Pearl>4</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -2327,9 +3757,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>29GBC549</NumberPlateText>
+			<NumberPlateText>42OVG022</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -2382,7 +3812,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>false</_1>
+				<_10>true</_10>
+				<_11>false</_11>
+				<_12>false</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -2443,35 +3875,35 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-576.099609</X>
-			<Y>-1671.1499</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.00255107833</Pitch>
-			<Roll>-0.000249532226</Roll>
-			<Yaw>-118.9636</Yaw>
+			<X>-2487.02344</X>
+			<Y>-2213.54688</Y>
+			<Z>149.3974</Z>
+			<Pitch>0.0497427918</Pitch>
+			<Roll>0.00039485874</Roll>
+			<Yaw>-128.228699</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>719708</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>626537</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>33</Primary>
-				<Secondary>40</Secondary>
-				<Pearl>29</Pearl>
+				<Primary>13</Primary>
+				<Secondary>2</Secondary>
+				<Pearl>13</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -2487,9 +3919,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>46YDS841</NumberPlateText>
+			<NumberPlateText>04ZBN812</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -2542,7 +3974,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>true</_1>
+				<_10>false</_10>
+				<_11>true</_11>
+				<_12>false</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -2603,35 +4037,35 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-573.063538</X>
-			<Y>-1665.66443</Y>
-			<Z>325.091797</Z>
-			<Pitch>-0.00234856736</Pitch>
-			<Roll>-0.000248428143</Roll>
-			<Yaw>-118.9636</Yaw>
+			<X>-2447.81567</X>
+			<Y>-2233.46826</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0506191216</Pitch>
+			<Roll>-0.000723699282</Roll>
+			<Yaw>-102.348122</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>542300</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>49258</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>38</Primary>
-				<Secondary>5</Secondary>
-				<Pearl>160</Pearl>
+				<Primary>28</Primary>
+				<Secondary>31</Secondary>
+				<Pearl>38</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -2647,9 +4081,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>28QKU022</NumberPlateText>
+			<NumberPlateText>21LMC642</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -2702,7 +4136,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>true</_1>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>true</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -2763,33 +4199,519 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-570.826477</X>
-			<Y>-1661.62268</Y>
-			<Z>325.09201</Z>
-			<Pitch>-0.00260910578</Pitch>
-			<Roll>-0.000243376853</Roll>
-			<Yaw>-118.9636</Yaw>
+			<X>-2403.91675</X>
+			<Y>-2236.12134</Y>
+			<Z>149.397415</Z>
+			<Pitch>0.0497189313</Pitch>
+			<Roll>0.000658988312</Roll>
+			<Yaw>-78.7661819</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>483679</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>540266</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>0</Primary>
+				<Primary>50</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>59</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>69MUJ536</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>true</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2368.08545</X>
+			<Y>-2223.62183</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0495719165</Pitch>
+			<Roll>0.0010077199</Roll>
+			<Yaw>-59.1001282</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>697962</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>67</Primary>
+				<Secondary>1</Secondary>
+				<Pearl>111</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>20TVC394</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>true</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2336.52661</X>
+			<Y>-2195.88672</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0488519184</Pitch>
+			<Roll>-0.00114880269</Roll>
+			<Yaw>-42.9142914</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>190315</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>52</Primary>
+				<Secondary>10</Secondary>
+				<Pearl>52</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>03DOA839</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>true</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2315.56958</X>
+			<Y>-2158.94604</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0498987362</Pitch>
+			<Roll>0.000555665873</Roll>
+			<Yaw>-15.195734</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>408683</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>8</Primary>
 				<Secondary>0</Secondary>
 				<Pearl>5</Pearl>
 				<Rim>156</Rim>
@@ -2807,9 +4729,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>80DRA928</NumberPlateText>
+			<NumberPlateText>89QPV915</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -2862,7 +4784,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>true</_1>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>true</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -2923,35 +4847,35 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-568.589233</X>
-			<Y>-1657.58093</Y>
-			<Z>325.091888</Z>
-			<Pitch>-0.00202947925</Pitch>
-			<Roll>-0.000246559182</Roll>
-			<Yaw>-118.9636</Yaw>
+			<X>-2311.50781</X>
+			<Y>-2120.77588</Y>
+			<Z>149.397415</Z>
+			<Pitch>0.0505427681</Pitch>
+			<Roll>0.00102455448</Roll>
+			<Yaw>6.55586195</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>475984</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>430954</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>64</Primary>
-				<Secondary>9</Secondary>
-				<Pearl>67</Pearl>
+				<Primary>2</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>65</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -2967,9 +4891,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>66LUO599</NumberPlateText>
+			<NumberPlateText>21KDY712</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -3022,7 +4946,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>true</_1>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>false</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -3083,35 +5009,35 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-566.1922</X>
-			<Y>-1653.25024</Y>
-			<Z>325.091797</Z>
-			<Pitch>-0.00287721027</Pitch>
-			<Roll>-0.000245446165</Roll>
-			<Yaw>-118.9636</Yaw>
+			<X>-2322.48389</X>
+			<Y>-2082.78564</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0495015346</Pitch>
+			<Roll>-0.00137957011</Roll>
+			<Yaw>24.5417767</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>565856</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>229740</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>9</Primary>
-				<Secondary>4</Secondary>
-				<Pearl>67</Pearl>
+				<Primary>111</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>111</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -3127,9 +5053,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>42CDP966</NumberPlateText>
+			<NumberPlateText>26HJU571</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -3182,7 +5108,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>false</_1>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>false</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -3243,35 +5171,683 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-571.114319</X>
-			<Y>-1649.96606</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.00245554559</Pitch>
-			<Roll>0.000161020842</Roll>
-			<Yaw>-120.434959</Yaw>
+			<X>-2348.55078</X>
+			<Y>-2048.12036</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0501742885</Pitch>
+			<Roll>0.00123358972</Roll>
+			<Yaw>47.2328568</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>765533</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>442476</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>112</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>112</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>03XQF811</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>false</_10>
+				<_11>true</_11>
+				<_12>false</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2384.54834</X>
+			<Y>-2028.36426</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0502770767</Pitch>
+			<Roll>5.93356162e-05</Roll>
+			<Yaw>70.2763214</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>552044</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>1</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>4</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>64OIX971</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>false</_10>
+				<_11>true</_11>
+				<_12>false</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2419.28101</X>
+			<Y>-2022.85828</Y>
+			<Z>149.397446</Z>
+			<Pitch>0.050571546</Pitch>
+			<Roll>0.000539239321</Roll>
+			<Yaw>86.8425827</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>525675</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>0</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>3</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>06DCI849</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>true</_10>
+				<_11>false</_11>
+				<_12>false</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2456.75098</X>
+			<Y>-2028.6134</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0508794561</Pitch>
+			<Roll>-0.00111085153</Roll>
+			<Yaw>110.072433</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>296813</InitialHandle>
+		<VehicleProperties>
+			<Colours>
+				<Primary>4</Primary>
+				<Secondary>0</Secondary>
+				<Pearl>111</Pearl>
+				<Rim>156</Rim>
+				<Mod1_a>6</Mod1_a>
+				<Mod1_b>-1</Mod1_b>
+				<Mod1_c>-1</Mod1_c>
+				<Mod2_a>6</Mod2_a>
+				<Mod2_b>-1</Mod2_b>
+				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
+				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
+				<tyreSmoke_R>255</tyreSmoke_R>
+				<tyreSmoke_G>255</tyreSmoke_G>
+				<tyreSmoke_B>255</tyreSmoke_B>
+				<LrInterior>0</LrInterior>
+				<LrDashboard>0</LrDashboard>
+			</Colours>
+			<Livery>-1</Livery>
+			<NumberPlateText>41ZMN949</NumberPlateText>
+			<NumberPlateIndex>0</NumberPlateIndex>
+			<WheelType>3</WheelType>
+			<WheelsInvisible>false</WheelsInvisible>
+			<EngineSoundName></EngineSoundName>
+			<WindowTint>-1</WindowTint>
+			<BulletProofTyres>false</BulletProofTyres>
+			<DirtLevel>0</DirtLevel>
+			<PaintFade>0.298039228</PaintFade>
+			<RoofState>0</RoofState>
+			<SirenActive>false</SirenActive>
+			<EngineOn>false</EngineOn>
+			<EngineHealth>1000</EngineHealth>
+			<LightsOn>false</LightsOn>
+			<IsRadioLoud>0</IsRadioLoud>
+			<LockStatus>1</LockStatus>
+			<Neons>
+				<Left>false</Left>
+				<Right>false</Right>
+				<Front>false</Front>
+				<Back>false</Back>
+				<R>255</R>
+				<G>0</G>
+				<B>255</B>
+			</Neons>
+			<DoorsOpen>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsOpen>
+			<DoorsBroken>
+				<BackLeftDoor>false</BackLeftDoor>
+				<BackRightDoor>false</BackRightDoor>
+				<FrontLeftDoor>false</FrontLeftDoor>
+				<FrontRightDoor>false</FrontRightDoor>
+				<Hood>false</Hood>
+				<Trunk>false</Trunk>
+				<Trunk2>false</Trunk2>
+			</DoorsBroken>
+			<TyresBursted>
+				<FrontLeft>false</FrontLeft>
+				<FrontRight>false</FrontRight>
+				<_2>false</_2>
+				<_3>false</_3>
+				<BackLeft>false</BackLeft>
+				<BackRight>false</BackRight>
+				<_6>false</_6>
+				<_7>false</_7>
+				<_8>false</_8>
+			</TyresBursted>
+			<ModExtras>
+				<_10>true</_10>
+				<_11>false</_11>
+				<_12>false</_12>
+			</ModExtras>
+			<Mods>
+				<_0>-1,0</_0>
+				<_1>-1,0</_1>
+				<_2>-1,0</_2>
+				<_3>-1,0</_3>
+				<_4>-1,0</_4>
+				<_5>-1,0</_5>
+				<_6>-1,0</_6>
+				<_7>-1,0</_7>
+				<_8>-1,0</_8>
+				<_9>-1,0</_9>
+				<_10>-1,0</_10>
+				<_11>-1,0</_11>
+				<_12>-1,0</_12>
+				<_13>-1,0</_13>
+				<_14>-1,0</_14>
+				<_15>-1,0</_15>
+				<_16>-1,0</_16>
+				<_17>false</_17>
+				<_18>false</_18>
+				<_19>false</_19>
+				<_20>false</_20>
+				<_21>false</_21>
+				<_22>false</_22>
+				<_23>-1,0</_23>
+				<_24>-1,0</_24>
+				<_25>-1,0</_25>
+				<_26>-1,0</_26>
+				<_27>-1,0</_27>
+				<_28>-1,0</_28>
+				<_29>-1,0</_29>
+				<_30>-1,0</_30>
+				<_31>-1,0</_31>
+				<_32>-1,0</_32>
+				<_33>-1,0</_33>
+				<_34>-1,0</_34>
+				<_35>-1,0</_35>
+				<_36>-1,0</_36>
+				<_37>-1,0</_37>
+				<_38>-1,0</_38>
+				<_39>-1,0</_39>
+				<_40>-1,0</_40>
+				<_41>-1,0</_41>
+				<_42>-1,0</_42>
+				<_43>-1,0</_43>
+				<_44>-1,0</_44>
+				<_45>-1,0</_45>
+				<_46>-1,0</_46>
+				<_47>-1,0</_47>
+				<_48>-1,0</_48>
+			</Mods>
+		</VehicleProperties>
+		<OpacityLevel>255</OpacityLevel>
+		<LodDistance>16960</LodDistance>
+		<IsVisible>true</IsVisible>
+		<MaxHealth>1000</MaxHealth>
+		<Health>1000</Health>
+		<HasGravity>true</HasGravity>
+		<IsOnFire>false</IsOnFire>
+		<IsInvincible>true</IsInvincible>
+		<IsBulletProof>false</IsBulletProof>
+		<IsCollisionProof>false</IsCollisionProof>
+		<IsExplosionProof>true</IsExplosionProof>
+		<IsFireProof>false</IsFireProof>
+		<IsMeleeProof>true</IsMeleeProof>
+		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
+		<PositionRotation>
+			<X>-2502.46191</X>
+			<Y>-2059.27441</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.0489059612</Pitch>
+			<Roll>-0.000381933729</Roll>
+			<Yaw>135.432907</Yaw>
+		</PositionRotation>
+		<Attachment isAttached="false" />
+	</Placement>
+	<Placement>
+		<ModelHash>0xcfca3668</ModelHash>
+		<Type>2</Type>
+		<Dynamic>true</Dynamic>
+		<FrozenPos>false</FrozenPos>
+		<HashName>Baller</HashName>
+		<InitialHandle>271981</InitialHandle>
 		<VehicleProperties>
 			<Colours>
 				<Primary>5</Primary>
 				<Secondary>0</Secondary>
-				<Pearl>0</Pearl>
+				<Pearl>111</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -3287,9 +5863,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>07LML878</NumberPlateText>
+			<NumberPlateText>67EHM076</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -3342,7 +5918,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>false</_1>
+				<_10>false</_10>
+				<_11>true</_11>
+				<_12>false</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -3403,514 +5981,34 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-573.62207</X>
-			<Y>-1654.2345</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.0025933315</Pitch>
-			<Roll>0.00077489554</Roll>
-			<Yaw>-120.434959</Yaw>
+			<X>-2522.8252</X>
+			<Y>-2099.05493</Y>
+			<Z>149.397385</Z>
+			<Pitch>0.0504738316</Pitch>
+			<Roll>0.000657801109</Roll>
+			<Yaw>165.366821</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>703072</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>647789</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>0</Primary>
-				<Secondary>57</Secondary>
-				<Pearl>92</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>47QLW646</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>false</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-576.297058</X>
-			<Y>-1658.78735</Y>
-			<Z>325.091766</Z>
-			<Pitch>-0.00224161195</Pitch>
-			<Roll>0.000161032105</Roll>
-			<Yaw>-120.434959</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>402523</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>33</Primary>
-				<Secondary>40</Secondary>
-				<Pearl>29</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>05NGT487</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>true</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-578.470154</X>
-			<Y>-1662.48682</Y>
-			<Z>325.091797</Z>
-			<Pitch>-0.00267132092</Pitch>
-			<Roll>0.000163506716</Roll>
-			<Yaw>-120.434959</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>720716</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>38</Primary>
-				<Secondary>5</Secondary>
-				<Pearl>160</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>07VIA999</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>false</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-581.145081</X>
-			<Y>-1667.03894</Y>
-			<Z>325.091858</Z>
-			<Pitch>-0.00279927975</Pitch>
-			<Roll>0.000168586106</Roll>
-			<Yaw>-120.434959</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>228699</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>0</Primary>
-				<Secondary>0</Secondary>
+				<Primary>6</Primary>
+				<Secondary>1</Secondary>
 				<Pearl>5</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
@@ -3927,9 +6025,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>24WAJ347</NumberPlateText>
+			<NumberPlateText>29LWX740</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -3982,7 +6080,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>false</_1>
+				<_10>false</_10>
+				<_11>false</_11>
+				<_12>false</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -4043,35 +6143,35 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-584.655884</X>
-			<Y>-1673.01514</Y>
-			<Z>325.091797</Z>
-			<Pitch>-0.00255594542</Pitch>
-			<Roll>0.000157421178</Roll>
-			<Yaw>-120.434959</Yaw>
+			<X>-2526.23071</X>
+			<Y>-2137.46313</Y>
+			<Z>149.39743</Z>
+			<Pitch>0.04999277</Pitch>
+			<Roll>0.000626476831</Roll>
+			<Yaw>-177.067566</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>
 	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
+		<ModelHash>0xcfca3668</ModelHash>
 		<Type>2</Type>
 		<Dynamic>true</Dynamic>
 		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>556883</InitialHandle>
+		<HashName>Baller</HashName>
+		<InitialHandle>758125</InitialHandle>
 		<VehicleProperties>
 			<Colours>
-				<Primary>64</Primary>
-				<Secondary>9</Secondary>
-				<Pearl>67</Pearl>
+				<Primary>11</Primary>
+				<Secondary>1</Secondary>
+				<Pearl>4</Pearl>
 				<Rim>156</Rim>
 				<Mod1_a>6</Mod1_a>
 				<Mod1_b>-1</Mod1_b>
@@ -4087,9 +6187,9 @@
 				<LrDashboard>0</LrDashboard>
 			</Colours>
 			<Livery>-1</Livery>
-			<NumberPlateText>01MZE440</NumberPlateText>
+			<NumberPlateText>40SQH074</NumberPlateText>
 			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
+			<WheelType>3</WheelType>
 			<WheelsInvisible>false</WheelsInvisible>
 			<EngineSoundName></EngineSoundName>
 			<WindowTint>-1</WindowTint>
@@ -4142,7 +6242,9 @@
 				<_8>false</_8>
 			</TyresBursted>
 			<ModExtras>
-				<_1>true</_1>
+				<_10>false</_10>
+				<_11>true</_11>
+				<_12>false</_12>
 			</ModExtras>
 			<Mods>
 				<_0>-1,0</_0>
@@ -4203,1140 +6305,20 @@
 		<Health>1000</Health>
 		<HasGravity>true</HasGravity>
 		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
+		<IsInvincible>true</IsInvincible>
 		<IsBulletProof>false</IsBulletProof>
 		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
+		<IsExplosionProof>true</IsExplosionProof>
 		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
+		<IsMeleeProof>true</IsMeleeProof>
 		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
 		<PositionRotation>
-			<X>-574.688293</X>
-			<Y>-1649.02844</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.00237044436</Pitch>
-			<Roll>0.000140904536</Roll>
-			<Yaw>151.910919</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>785244</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>9</Primary>
-				<Secondary>4</Secondary>
-				<Pearl>67</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>65TWJ889</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>true</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-577.657593</X>
-			<Y>-1654.22131</Y>
-			<Z>325.091858</Z>
-			<Pitch>-0.00184904807</Pitch>
-			<Roll>-7.54835055e-05</Roll>
-			<Yaw>151.130051</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>710490</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>5</Primary>
-				<Secondary>0</Secondary>
-				<Pearl>0</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>60JCO997</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>true</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-580.60498</X>
-			<Y>-1659.10315</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.00252417265</Pitch>
-			<Roll>-0.000418333162</Roll>
-			<Yaw>150.436783</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>258140</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>0</Primary>
-				<Secondary>57</Secondary>
-				<Pearl>92</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>27HTW268</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>false</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-583.381409</X>
-			<Y>-1663.85034</Y>
-			<Z>325.091858</Z>
-			<Pitch>-0.00187371415</Pitch>
-			<Roll>-0.000320326071</Roll>
-			<Yaw>150.263153</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>456529</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>33</Primary>
-				<Secondary>40</Secondary>
-				<Pearl>29</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>86XCJ675</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>false</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-586.529419</X>
-			<Y>-1669.09521</Y>
-			<Z>325.099274</Z>
-			<Pitch>0.102348499</Pitch>
-			<Roll>-0.608340025</Roll>
-			<Yaw>150.019913</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>171864</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>38</Primary>
-				<Secondary>5</Secondary>
-				<Pearl>160</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>46CBX091</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>false</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-517.691956</X>
-			<Y>-1679.33447</Y>
-			<Z>325.091278</Z>
-			<Pitch>0.0211744551</Pitch>
-			<Roll>-0.00967110693</Roll>
-			<Yaw>147.837402</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>741979</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>0</Primary>
-				<Secondary>0</Secondary>
-				<Pearl>5</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>89HFJ286</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>true</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-520.900085</X>
-			<Y>-1684.97656</Y>
-			<Z>325.091858</Z>
-			<Pitch>-0.00255143852</Pitch>
-			<Roll>0.000251934485</Roll>
-			<Yaw>148.44342</Yaw>
-		</PositionRotation>
-		<Attachment isAttached="false" />
-	</Placement>
-	<Placement>
-		<ModelHash>0x92ef6e04</ModelHash>
-		<Type>2</Type>
-		<Dynamic>true</Dynamic>
-		<FrozenPos>false</FrozenPos>
-		<HashName>811</HashName>
-		<InitialHandle>725334</InitialHandle>
-		<VehicleProperties>
-			<Colours>
-				<Primary>64</Primary>
-				<Secondary>9</Secondary>
-				<Pearl>67</Pearl>
-				<Rim>156</Rim>
-				<Mod1_a>6</Mod1_a>
-				<Mod1_b>-1</Mod1_b>
-				<Mod1_c>-1</Mod1_c>
-				<Mod2_a>6</Mod2_a>
-				<Mod2_b>-1</Mod2_b>
-				<IsPrimaryColourCustom>false</IsPrimaryColourCustom>
-				<IsSecondaryColourCustom>false</IsSecondaryColourCustom>
-				<tyreSmoke_R>255</tyreSmoke_R>
-				<tyreSmoke_G>255</tyreSmoke_G>
-				<tyreSmoke_B>255</tyreSmoke_B>
-				<LrInterior>0</LrInterior>
-				<LrDashboard>0</LrDashboard>
-			</Colours>
-			<Livery>-1</Livery>
-			<NumberPlateText>04ZIE954</NumberPlateText>
-			<NumberPlateIndex>0</NumberPlateIndex>
-			<WheelType>7</WheelType>
-			<WheelsInvisible>false</WheelsInvisible>
-			<EngineSoundName></EngineSoundName>
-			<WindowTint>-1</WindowTint>
-			<BulletProofTyres>false</BulletProofTyres>
-			<DirtLevel>0</DirtLevel>
-			<PaintFade>0.298039228</PaintFade>
-			<RoofState>0</RoofState>
-			<SirenActive>false</SirenActive>
-			<EngineOn>false</EngineOn>
-			<EngineHealth>1000</EngineHealth>
-			<LightsOn>false</LightsOn>
-			<IsRadioLoud>0</IsRadioLoud>
-			<LockStatus>1</LockStatus>
-			<Neons>
-				<Left>false</Left>
-				<Right>false</Right>
-				<Front>false</Front>
-				<Back>false</Back>
-				<R>255</R>
-				<G>0</G>
-				<B>255</B>
-			</Neons>
-			<DoorsOpen>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsOpen>
-			<DoorsBroken>
-				<BackLeftDoor>false</BackLeftDoor>
-				<BackRightDoor>false</BackRightDoor>
-				<FrontLeftDoor>false</FrontLeftDoor>
-				<FrontRightDoor>false</FrontRightDoor>
-				<Hood>false</Hood>
-				<Trunk>false</Trunk>
-				<Trunk2>false</Trunk2>
-			</DoorsBroken>
-			<TyresBursted>
-				<FrontLeft>false</FrontLeft>
-				<FrontRight>false</FrontRight>
-				<_2>false</_2>
-				<_3>false</_3>
-				<BackLeft>false</BackLeft>
-				<BackRight>false</BackRight>
-				<_6>false</_6>
-				<_7>false</_7>
-				<_8>false</_8>
-			</TyresBursted>
-			<ModExtras>
-				<_1>true</_1>
-			</ModExtras>
-			<Mods>
-				<_0>-1,0</_0>
-				<_1>-1,0</_1>
-				<_2>-1,0</_2>
-				<_3>-1,0</_3>
-				<_4>-1,0</_4>
-				<_5>-1,0</_5>
-				<_6>-1,0</_6>
-				<_7>-1,0</_7>
-				<_8>-1,0</_8>
-				<_9>-1,0</_9>
-				<_10>-1,0</_10>
-				<_11>-1,0</_11>
-				<_12>-1,0</_12>
-				<_13>-1,0</_13>
-				<_14>-1,0</_14>
-				<_15>-1,0</_15>
-				<_16>-1,0</_16>
-				<_17>false</_17>
-				<_18>false</_18>
-				<_19>false</_19>
-				<_20>false</_20>
-				<_21>false</_21>
-				<_22>false</_22>
-				<_23>-1,0</_23>
-				<_24>-1,0</_24>
-				<_25>-1,0</_25>
-				<_26>-1,0</_26>
-				<_27>-1,0</_27>
-				<_28>-1,0</_28>
-				<_29>-1,0</_29>
-				<_30>-1,0</_30>
-				<_31>-1,0</_31>
-				<_32>-1,0</_32>
-				<_33>-1,0</_33>
-				<_34>-1,0</_34>
-				<_35>-1,0</_35>
-				<_36>-1,0</_36>
-				<_37>-1,0</_37>
-				<_38>-1,0</_38>
-				<_39>-1,0</_39>
-				<_40>-1,0</_40>
-				<_41>-1,0</_41>
-				<_42>-1,0</_42>
-				<_43>-1,0</_43>
-				<_44>-1,0</_44>
-				<_45>-1,0</_45>
-				<_46>-1,0</_46>
-				<_47>-1,0</_47>
-				<_48>-1,0</_48>
-			</Mods>
-		</VehicleProperties>
-		<OpacityLevel>255</OpacityLevel>
-		<LodDistance>16960</LodDistance>
-		<IsVisible>true</IsVisible>
-		<MaxHealth>1000</MaxHealth>
-		<Health>1000</Health>
-		<HasGravity>true</HasGravity>
-		<IsOnFire>false</IsOnFire>
-		<IsInvincible>false</IsInvincible>
-		<IsBulletProof>false</IsBulletProof>
-		<IsCollisionProof>false</IsCollisionProof>
-		<IsExplosionProof>false</IsExplosionProof>
-		<IsFireProof>false</IsFireProof>
-		<IsMeleeProof>false</IsMeleeProof>
-		<IsOnlyDamagedByPlayer>false</IsOnlyDamagedByPlayer>
-		<PositionRotation>
-			<X>-524.70813</X>
-			<Y>-1691.54871</Y>
-			<Z>325.091827</Z>
-			<Pitch>-0.00291366177</Pitch>
-			<Roll>6.42323866e-05</Roll>
-			<Yaw>148.789673</Yaw>
+			<X>-2517.3916</X>
+			<Y>-2171.83228</Y>
+			<Z>149.397446</Z>
+			<Pitch>0.0505605452</Pitch>
+			<Roll>-0.000467487902</Roll>
+			<Yaw>-158.42569</Yaw>
 		</PositionRotation>
 		<Attachment isAttached="false" />
 	</Placement>

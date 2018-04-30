@@ -247,7 +247,6 @@ Vehicles = {
 			'STINGERGT',
 			'STRATUM',
 			'STREITER',
-			'STRETCH',
 			'SULTAN',
 			'SULTANRS',
 			'SUPERD',

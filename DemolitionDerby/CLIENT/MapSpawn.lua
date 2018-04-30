@@ -2,7 +2,8 @@ SpawnedPropsLocal = {}; SpawnedProps = {}; MapReceived = {false}; MapSpawned = f
 
 function SpawnMap(MapName, MapTable, ID)
 	if #MapTable.Vehicles >= 32 then
---[[		for Key, Value in ipairs(SpawnedProps) do
+--[[
+		for Key, Value in ipairs(SpawnedProps) do
 			local EntityHandle = NetworkGetEntityFromNetworkId(Value)
 			while DoesEntityExist(EntityHandle) do
 				Citizen.Wait(0)
@@ -15,8 +16,9 @@ function SpawnMap(MapName, MapTable, ID)
 			end
 		end
 		
-		SpawnedProps = {}]]
-		
+		SpawnedProps = {}
+]]
+
 		for Key, Value in ipairs(SpawnedPropsLocal) do
 			while DoesEntityExist(Value) do
 				Citizen.Wait(0)
@@ -30,34 +32,28 @@ function SpawnMap(MapName, MapTable, ID)
 		SpawnedPropsLocal = {}
 		
 		for Key, Value in ipairs(MapTable.Props) do
-			if Key == 1 then
-				ReferenceZ = tonumber(Value.Z)
-			end
+			if Key == 1 then ReferenceZ = tonumber(Value.Z) end
 			if IsModelValid(tonumber(Value.ModelHash)) then
 				if not HasModelLoaded(tonumber(Value.ModelHash)) then
 					RequestModel(tonumber(Value.ModelHash))
 					while not HasModelLoaded(tonumber(Value.ModelHash)) do
 						Citizen.Wait(0)
 					end
-					local Dynamic = false
-					if Value.Dynamic == 'true' then
-						Dynamic = true
-					end
 				end
-				local Prop = CreateObjectNoOffset(tonumber(Value.ModelHash), tonumber(Value.X), tonumber(Value.Y), tonumber(Value.Z), true, false, Dynamic)
+				local Dynamic = false
+				if Value.Dynamic == 'true' then Dynamic = true end
+				local Prop = CreateObject(tonumber(Value.ModelHash), tonumber(Value.X), tonumber(Value.Y), tonumber(Value.Z), false, false, Dynamic)
 				SetEntityCollision(Prop, false, false)
-				SetEntityLodDist(Prop, 65535)
 				SetEntityCoords(Prop, tonumber(Value.X), tonumber(Value.Y), tonumber(Value.Z), false, false, false, false)
-				if tonumber(Value.Pitch) < 0.0 then
-					Value.Pitch = 180.0 + math.abs(tonumber(Value.Pitch))
-				end
+				if tonumber(Value.Pitch) < 0.0 then Value.Pitch = 180.0 + math.abs(tonumber(Value.Pitch)) end
 				SetEntityRotation(Prop, tonumber(Value.Pitch), tonumber(Value.Roll), tonumber(Value.Yaw), 3, 0)
 				FreezeEntityPosition(Prop, true)
 				SetEntityCollision(Prop, true, true)
 				
 				SetEntityAsMissionEntity(Prop, false, true)
-				
---[[				local PropNetID = NetworkGetNetworkIdFromEntity(Prop)
+
+--[[				
+				local PropNetID = NetworkGetNetworkIdFromEntity(Prop)
 				while not N_0xb07d3185e11657a5(Prop) do
 					Citizen.Wait(0)
 					if NetworkHasControlOfNetworkId(Prop) then
@@ -68,13 +64,18 @@ function SpawnMap(MapName, MapTable, ID)
 					else
 						NetworkRequestControlOfEntity(Prop)
 					end
-				end]]
+				end
+]]
 
 				SetEntityAsMissionEntity(Prop, true, true)
 				SetModelAsNoLongerNeeded(tonumber(Value.ModelHash))
 				
 				table.insert(SpawnedPropsLocal, Prop)
---				table.insert(SpawnedProps, PropNetID)
+
+--[[
+				table.insert(SpawnedProps, PropNetID)
+]]
+
 			end
 		end
 		if GetPlayerServerId(PlayerId()) == ID then
@@ -82,9 +83,8 @@ function SpawnMap(MapName, MapTable, ID)
 		end
 	else
 		GameStarted = false
-		ShowNotification('~r~ERROR!~n~Only ' .. #MapTable.Vehicles .. ' Spawnpoints!')
-		ShowNotification('~r~' .. GetLabelText('FMMC_RANDFAIL'))
-		ShowNotification('~y~' .. GetLabelText('USJ_FAILSAFE'))
+		ShowNotification('~r~ERROR!~n~Only ' .. #MapTable.Vehicles .. ' Spawnpoints!~n~' .. 32 - #MapTable.Vehicles .. ' missing')
+		ShowNotification('~r~' .. GetLabelText('FMMC_RANDFAIL') .. '~y~' .. GetLabelText('USJ_FAILSAFE'))
 	end
 end
 
@@ -102,7 +102,9 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 		if MapSpawned then
---			TriggerServerEvent('DD:Server:MapInformations', SpawnedProps, ReferenceZ, GetRandomVehicleClass())
+--[[				
+			TriggerServerEvent('DD:Server:MapInformations', SpawnedProps, ReferenceZ, GetRandomVehicleClass())
+]]
 			TriggerServerEvent('DD:Server:MapInformations', GetRandomVehicleClass())
 			MapSpawned = false
 		end

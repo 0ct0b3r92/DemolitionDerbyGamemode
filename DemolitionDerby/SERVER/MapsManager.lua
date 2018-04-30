@@ -25,7 +25,7 @@ local function GetMapsFromPath()
 end
 
 local function CheckForDefaultMap()
-	for i = 1, 2 do
+	for i = 1, 3 do
 		local DefaultFile = io.open('DemolitionDerbyMaps' .. GetOSSep() .. 'DefaultMap' .. i .. '.xml', 'r')
 		if not DefaultFile then
 			local BackupMap = LoadResourceFile(GetCurrentResourceName(), 'SERVER' .. GetOSSep() .. 'BackupMaps' .. GetOSSep() .. 'BackupMap' .. i .. '.xml')

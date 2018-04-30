@@ -1,4 +1,4 @@
-GameStarted = false; GameRunning = false; StartState = nil; ReadyPlayers = {}; CurrentlySpectating = -1; RequestingDone = false; CountdownScaleform = nil
+GameStarted = false; GameRunning = false; StartState = nil; ReadyPlayers = {}; CurrentlySpectating = -1; RequestingDone = false; CountdownScaleform = nil; MidGameJoiner = false
 
 local function RemoveMyVehicle()
 	if IsPedInAnyVehicle(PlayerPedId(), false) then
@@ -91,15 +91,6 @@ local function Countdown(State)
 		end
 	end
 	
---[[	if State == 3 then
-		Draw(GetLabelText('collision_3mddt3c'), 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"Get Ready"
-	elseif State == 2 then
-		Draw('...', 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"..."
-	elseif State == 1 then
-		Draw(GetLabelText('collision_yq6ipu7') .. '!', 0, 40, 200, 255, 0.5, 0.5, 0.5, 0.5, 2, true, 0) --"GO!"
-	elseif State == 0 then
-		GameRunning = true
-	end]]
 end
 
 Citizen.CreateThread(function()
